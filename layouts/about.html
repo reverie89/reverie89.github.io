@@ -1,0 +1,162 @@
+{{ define "main" }}
+
+{{ $opts := dict "transpiler" "libsass" "targetPath" "app.css" "outputStyle" "compressed" "enableSourceMap" true }}
+{{ with resources.Get "scss/_app.scss" | toCSS $opts | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
+<div class="layout-wrapper">
+    <header class="app-header">
+      {{ with .Resources.GetMatch .Params.photo }}
+        <img class="app-header-avatar" src="{{ .RelPermalink }}" alt="{{ $.Params.name }}">
+      {{ end }}
+      <span class="app-header-greeting">{{ i18n "about.greeting" }}</span>
+      <span class="app-header-name">{{ .Params.name }}</span>
+      {{ if i18n "about.greeting2" }}
+        <span class="app-header-greeting">{{ i18n "about.greeting2" }}</span>
+      {{ end }}
+      <nav class="app-header-social">
+        {{ range .Params.socials }}
+          <a title="{{ .name }}" class="app-header-social-item" href="{{ .url }}" target="_blank" rel="noreferrer noopener me">
+            <i class="{{ .icon }} fa-2x"></i>
+          </a>
+        {{ end }}
+      </nav>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item js-scroll" href="#intro">{{ i18n "about.intro" }}</a>
+          <a class="app-header-menu-item js-scroll" href="#experience">{{ i18n "about.experience" }}</a>
+          <a class="app-header-menu-item js-scroll" href="#skills">{{ i18n "about.skills" }}</a>
+          <a class="app-header-menu-item js-scroll" href="#education">{{ i18n "about.education" }}</a>
+          <a class="app-header-menu-item js-scroll" href="#badges">{{ i18n "about.badges" }}</a>
+          <a class="app-header-menu-item js-scroll" href="#awards">{{ i18n "about.awards" }}</a>
+          <a class="app-header-menu-item" href="{{ relref . "pastworks" }}">{{ i18n "about.pastworks" }}</a>
+      </nav>
+    </header>
+    <main class="app-container">
+        <section id="intro" class="section-item">
+          <h2>{{ i18n "about.intro" }}</h2>
+          {{ .Params.intro }}
+        </section>
+        <section id="experience" class="section-item">
+          <h2>{{ i18n "about.experience" }}</h2>
+          {{ $exps := .Params.experience }}
+          {{ $n := len $exps }}
+          {{ $i := 0 }}
+          {{ range $idx, $exp := $exps }}
+            {{ if or (eq $idx 0) (not (and (eq $exp.location (index $exps (sub $idx 1)).location) (eq $exp.company (index $exps (sub $idx 1)).company))) }}
+              <div>
+                <h3>
+                  {{ $logo := $.Resources.GetMatch $exp.logo }}
+                  {{ with $logo }}
+                    <img src="{{ .RelPermalink }}" width="32px">
+                  {{ end }}
+                  &nbsp; {{ $exp.company }}
+                </h3>
+                
+                {{ range $j, $e := $exps }}
+                  {{ if and (eq $e.location $exp.location) (eq $e.company $exp.company) }}
+                    <div class="item-title">{{ $e.title }}</div>
+                    <div class="item-period">{{ $e.period }}</div>
+                    <ul>
+                      {{ range $e.details }}
+                        <li>{{ . }}</li>
+                      {{ end }}
+                    </ul>
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </section>
+        <section id="skills" class="section-item">
+          <h2>{{ i18n "about.skills" }}</h2>
+          <div class="skills-block">
+            <h3>I work with</h3>
+            {{ range .Params.skills.software }}
+            <i title="{{ .name }}" class="{{ .icon }} fa-3x"></i>
+            {{ end }}
+            <h3>I code in</h3>
+            {{ range .Params.skills.development }}
+            <i title="{{ .name }}" class="{{ .icon }} fa-3x"></i>
+            {{ end }}
+            <h3>I speak</h3>
+            <ul>
+              {{ range .Params.skills.languages }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+            <h3>Other Skills</h3>
+            <ul>
+              {{ range .Params.skills.expertise }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        </section>
+        <section id="education" class="section-item">
+          <h2>{{ i18n "about.education" }}</h2>
+          <div>
+            {{ range .Params.education }}
+              <div>
+                <h3>{{ .school }}</h3>
+                <div class="item-title">{{ .degree }}</div>
+                <div class="item-period">{{ .period }}</div>
+                {{ with .details }}
+                  <ul>
+                    {{ range . }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </section>
+        <section id="badges" class="section-item">
+          <h2>{{ i18n "about.badges" }}</h2>
+          <ul class="badges">
+            {{ range .Params.badges }}
+              <li class="badges-item">{{ .htmlcode | safeHTML }}</li>
+            {{ end }}
+          </ul>
+        </section>
+        <section id="awards" class="section-item">
+          <h2>{{ i18n "about.awards" }}</h2>
+      {{ $opts := dict "transpiler" "libsass" "targetPath" "lightbox.css" "outputStyle" "compressed" "enableSourceMap" true }}
+      {{ with resources.Get "scss/lightbox.scss" | toCSS $opts | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+      {{ with resources.Get "/js/lightbox.js" | minify | fingerprint }}
+        <script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{ end }}
+      <ul class="image-gallery">
+        {{ range .Params.awards }}
+          {{ $img := $.Resources.GetMatch .image }}
+          {{ $title := .title }}
+          {{ $description := .description }}
+          {{ with $img }}
+            <li>
+              <a href="{{ .Permalink }}" title="{{ $title }} : {{ $description }}" class="lightbox-image">
+                {{ with .Fill "400x400 q70" }}
+                  <img src="{{ .RelPermalink }}" alt="{{ $title }}" title="{{ $title }}">
+                {{ end }}
+                <span>{{ $title }}</span>
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+        </section>
+    </main>
+    <script>
+      document.querySelectorAll('.js-scroll').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          var target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+    </script>
+</div>
+{{ end }}

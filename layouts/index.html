@@ -1,0 +1,25 @@
+{{ define "body" }}
+    <body class="background-image" style="background-image: url('{{ "images/unsplash.webp" | relURL }}');">
+{{ end }}
+
+{{ define "main" }}
+  {{ $opts := dict "transpiler" "libsass" "targetPath" "particles.css" "outputStyle" "compressed" "enableSourceMap" true }}
+  {{ with resources.Get "scss/particles.scss" | toCSS $opts | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+  {{ end }}
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<div id="particles-js"></div>
+    <main>
+        <div>
+            <ul class="menu__services">
+                    {{ range sort .Site.Menus.services "Weight" -}}
+                        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+                    {{- end }}
+            </ul>
+            <img src="{{ .Site.Params.Logo.path | relURL }}" alt="{{ .Site.Params.Logo.alt }}" />
+        </div>
+    </main>
+  {{ with resources.Get "js/particles.js" | minify | fingerprint }}
+    <script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+  {{ end }}
+{{ end }}

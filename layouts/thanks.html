@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container my-5">
+  <div class="p-5 text-center bg-body-tertiary rounded-3">
+      {{ .Content }}  
+  </div>
+</div>
+
+{{ $years := site.Data.thanks.years }}
+{{ $currentYear := now.Year }}
+
+<div class="container">
+    {{ range $i, $y := $years }}
+        <div class="col thanks">
+          <div class="card">
+            <div class="card-header">
+              <h4>{{ $y.year }}</h4>
+            </div>
+            <div class="card-body">
+              <ul>
+                {{ range $y.names }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+    {{ end }}
+</div>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  ScrollReveal({ reset: false });
+  ScrollReveal().reveal(".thanks", { delay: 600 });
+</script>
+{{ end }}

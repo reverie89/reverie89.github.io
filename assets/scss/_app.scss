@@ -1,0 +1,140 @@
+.app-header {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+  flex-shrink: 0;
+  overflow-y: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.app-header-avatar {
+  margin: 0.75rem 0 2rem 0;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 100%;
+  border: 0.1rem solid #41f2ff;
+}
+
+.app-header-greeting {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.app-header-name {
+  display: block;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.app-header-menu {
+  margin: 2rem 0 0 0;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header-menu a {
+  display: block;
+  margin: 0 0 0.7rem 0;
+  text-decoration: none;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+
+.app-header-menu a:hover {
+  color: #0057b8;
+  text-decoration: underline;
+  text-decoration-color: #0057b8;
+  cursor: pointer;
+}
+
+.app-header-social {
+  margin: 2rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header-social-item {
+  margin: 0 0.75rem;
+}
+
+.app-header-social-item:hover {
+  color: #0057b8;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+
+.app-container {
+  flex: 1;
+  max-width: calc(100vw - 16rem);
+  position: relative;
+  z-index: 2;
+  margin: 1rem 1rem 0 0;
+  text-align: justify;
+}
+
+h2, h3 {
+  margin: 1rem 0;
+}
+
+.layout-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.section-item {
+  border: 1px solid #e3e3e3;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.item-title {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.item-period {
+  font-size: 0.8rem
+}
+
+.badges {
+  margin: 0;
+  list-style: none;
+}
+
+.badges-item {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+
+@media (max-width: 939px) {
+  .layout-wrapper {
+    flex-direction: column;
+  }
+  .app-header {
+    width: 100%;
+    min-height: auto;
+    box-shadow: none;
+    top: 0;
+    z-index: 10;
+  }
+  .app-container {
+    margin: 0.25rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .back-to-top-overlay {
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.5rem 0.6rem;
+  }
+}

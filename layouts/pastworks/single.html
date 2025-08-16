@@ -1,0 +1,81 @@
+{{ define "main" }}
+<main class="post">
+
+    <a href="{{ "pastworks" | relURL }}" class="back-button">&larr; {{ i18n "pagination.return" }}</a>
+
+    <div class="post-info">
+        {{ if .IsTranslated }}
+            {{ i18n "postAvailable" }}
+            {{ range .Translations }}
+                <a href="{{ .Permalink }}"><span class="fi fi-{{ .Language.Params.flagCode }}"></span></a>
+            {{ end}}
+        {{ end }}
+    </div>
+
+    <article>
+        <h2 class="post-title">{{ .Title | markdownify }}</h2>
+
+        <div class="post-info">
+            Year: {{ .Params.date.Format "2006" }} &nbsp;|&nbsp;
+            {{ partial "tags.html" .Params.tags }}
+        </div>
+
+        <div class="post-content">
+        {{ .Content }}
+        </div>
+
+    {{ if .Params.showcase }}
+      {{ $images := .Resources.ByType "image" }}
+
+      {{ $opts := dict "transpiler" "libsass" "targetPath" "lightbox.css" "outputStyle" "compressed" "enableSourceMap" true }}
+      {{ with resources.Get "scss/lightbox.scss" | toCSS $opts | minify | fingerprint }}
+          <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+      {{ with resources.Get "/js/lightbox.js" | minify | fingerprint }}
+          <script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{ end }}
+      <ul class="image-gallery">
+      {{ range .Params.showcase }}
+          {{ $src := .src }}
+          {{ $alt := .alt }}
+          {{ with $images.GetMatch .src }}
+          <li>
+          <a href="{{ .Permalink }}" title="{{ $alt }}" class="lightbox-image">
+              {{ with .Fill "400x400 q70" }}
+              <img src="{{ .RelPermalink }}" alt="{{ $alt }}" title="{{ $alt }}">
+              {{ end }}
+              <span>{{ $alt }}</span>
+          </a>
+          </li>
+          {{ end }}
+      {{ end }}
+      </ul>
+    {{ end }}
+    </article>
+
+    <hr />
+
+  <!-- Pagination for previous/next portfolio entry -->
+  <nav class="portfolio-pagination pagination">
+    <div class="pagination__buttons">
+      {{ with .PrevInSection }}
+        <span class="button previous">
+          <a href="{{ .RelPermalink }}">
+            <span class="button__icon">&larr;</span>
+            <span class="button__text">{{ i18n "pagination.previousItem" }}</span>
+          </a>
+        </span>
+      {{ end }}
+      {{ with .NextInSection }}
+        <span class="button next">
+          <a href="{{ .RelPermalink }}">
+            <span class="button__text">{{ i18n "pagination.nextItem" }}</span>
+            <span class="button__icon">&rarr;</span>
+          </a>
+        </span>
+      {{ end }}
+    </div>
+  </nav>
+
+    </main>
+{{ end }}

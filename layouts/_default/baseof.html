@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+    <head>
+        {{ partial "head.html" . }}
+        {{ block "styles" . }}
+        {{ end }}
+    </head>
+
+    {{ block "body" . }}
+        <body>
+    {{ end }}
+    
+        <div class="container" id="top">
+            {{ partial "header.html" . }}
+
+            <div class="content">
+                {{ block "main" . }}{{ end }}
+            </div>
+
+            {{ block "footer" . }}
+                {{ partial "footer.html" . }}
+            {{ end }}
+        </div>
+
+        {{ partial "javascript.html" . }}
+    </body>
+</html>

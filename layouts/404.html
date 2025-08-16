@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <div id="spotlight" class="error-404 animated fadeIn">
+        <p class="img-404">
+            <i class="fa-solid fa-people-robbery fa-6x"></i>
+        </p>
+        <div class="banner-404">
+            <h1>404</h1>
+            <p>{{ i18n "notFound" }}</p>
+            <p class="btn-404">
+                <a href="{{.Site.BaseURL}}">
+                  <i class="fa-solid fa-home"></i> {{- i18n "home" -}}
+                </a>
+            </p>
+        </div>
+    </div>
+{{ end }}

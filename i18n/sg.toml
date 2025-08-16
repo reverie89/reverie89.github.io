@@ -1,0 +1,59 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Translations"
+
+[postAvailable]
+other = "Want other ah?"
+
+
+# 404.html
+#
+[archives]
+other = "Store room"
+
+[home]
+other = "Kampong"
+
+[notFound]
+other = "Aiya, page got lost liao! How now brown cow?"
+
+# posts/single.html
+#
+[readingTime]
+one   = "One minute"
+other = "{{ .Count }} minutes"
+
+[tableOfContents]
+other = "One Look Everything Know"
+
+[wordCount]
+one   = "One Word"
+other = "{{ .Count }} Words"
+
+[lastModified]
+other = "Last updated"
+
+# partials/pagination-list.html
+[pagination]
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+previousItem = "U Turn"
+nextItem = "Next"
+return = "Balik"
+
+[readOtherPosts]
+other = "Read other posts"
+
+[about]
+greeting = "limpeh is"
+intro = "kaki gong kaki song"
+experience = "work life"
+skills = "hands on"
+education = "study life"
+badges = "haolian"
+awards = "show off"
+pastworks = "my homework"

@@ -1,0 +1,115 @@
+baseurl = "https://reverie89.github.io"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+pagination.Pagersize = 10
+title = "vtsuki.net"
+copyright = "&#169; 2006 - 2025 vtsuki.net"
+
+[params]
+  dateform        = "2 Jan, 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  disableReadOtherPosts = false
+  enableThemeToggle = true
+  enableSharingButtons = false
+  description = "vtsuki.net"
+  keywords = "reverie89"
+  EnableGlobalLanguageMenu = true
+  DefaultContentLanguage = "en"
+  
+  [params.footer]
+    copyright = true
+
+  [params.logo]
+    logoText = "vtsuki.net"
+    path = "images/logo.webp"
+    alt = "vtsuki.net"
+
+[taxonomies]
+  category = "blog"
+  tag      = "tags"
+  series   = "series"
+
+[languages]
+  [languages.sg]
+    weight = 5
+    languageCode = "en-GB"
+    languageName = "Singlish"
+
+    [languages.sg.params]
+    flagCode = "sg"
+
+    [languages.sg.menus]
+      [[languages.sg.menus.main]]
+        weight     = 10
+        identifier = "about"
+        name       = "Limpeh"
+        url        = "/about"
+
+      [[languages.sg.menus.main]]
+        weight     = 20
+        identifier = "thanks"
+        name       = "Gam Xia"
+        url        = "/thanks"
+
+      [[languages.sg.menus.services]]
+        weight     = 30
+        identifier = "email"
+        name       = "email"
+        url        = "https://mail.google.com/"
+
+  [languages.en]
+    weight = 10
+    languageCode = "en-GB"
+    languageName = "English"
+
+    [languages.en.params]
+    flagCode = "gb"
+
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        weight     = 10
+        identifier = "about"
+        name       = "About"
+        url        = "/about"
+
+      [[languages.en.menus.main]]
+        weight     = 20
+        identifier = "thanks"
+        name       = "Hall of Thanks"
+        url        = "/thanks"
+
+      [[languages.en.menus.services]]
+        weight     = 30
+        identifier = "email"
+        name       = "email"
+        url        = "https://mail.google.com/"
+
+  [languages.ja]
+    weight = 20
+    languageCode = "ja"
+    languageName = "日本語"
+    hasCJKLanguage = true
+
+    [languages.ja.params]
+    flagCode = "jp"
+
+    [languages.ja.menus]
+      [[languages.ja.menus.main]]
+        weight     = 10
+        identifier = "about"
+        name       = "プロフィール"
+        url        = "/about"
+
+      [[languages.ja.menus.main]]
+        weight     = 20
+        identifier = "thanks"
+        name       = "ご支援者"
+        url        = "/thanks"
+
+      [[languages.ja.menus.services]]
+        weight     = 30
+        identifier = "email"
+        name       = "メール"
+        url        = "https://mail.google.com/"

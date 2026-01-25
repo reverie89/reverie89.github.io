@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hobby on vtsuki.net</title>
+    <link>http://localhost:1313/tags/hobby/</link>
+    <description>Recent content in Hobby on vtsuki.net</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hobby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vtsuki.net revamp</title>
+      <link>http://localhost:1313/pastworks/2025-vtsuki-revamp/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2025-vtsuki-revamp/</guid>
+      <description>&lt;p&gt;vtsuki.net is rebuit and now powered by Hugo and agentic AI prompts. The site features a modern design, theme switching, mobile responsiveness, and advanced automation. Japanese and Singlish content are AI-generated, and the site is deployed via GitHub Pages.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Powered by &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; to generate the site&lt;/li&gt;&#xA;&lt;li&gt;Agentic AI prompts via &lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; to revitalize the look and feel of the site&lt;/li&gt;&#xA;&lt;li&gt;Light and dark theme&lt;/li&gt;&#xA;&lt;li&gt;Mobile responsive&lt;/li&gt;&#xA;&lt;li&gt;Fairly large behind-the-scene customizations to original theme&lt;/li&gt;&#xA;&lt;li&gt;GPT-4.1 AI generated Japanese and Singlish content&lt;/li&gt;&#xA;&lt;li&gt;Site deployed and served via &lt;a href=&#34;https://github.com/reverie89/reverie89.github.io&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>IoT hydroponic watering system with ESP32</title>
+      <link>http://localhost:1313/pastworks/2025-iot-hydroponic-watering-system-esp32/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2025-iot-hydroponic-watering-system-esp32/</guid>
+      <description>&lt;p&gt;This project features an automated hydroponic watering system powered by an ESP32 microcontroller. It intelligently checks water levels before mixing nutrients to precise concentrations. The system uses a single 12V supply for pumps, with voltage conversion for microcontroller and sensors, ensuring efficient and reliable operation for home hydroponics.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automated watering system&lt;/li&gt;&#xA;&lt;li&gt;Checks for sufficient water before attempting to mix in nutrients to required concentration levels&lt;/li&gt;&#xA;&lt;li&gt;Powered by a single 12V power supply, for water pump and peristaltic pumps, with buck conversions down to 5V for the microcontroller and 3.3V for sensor inputs.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Docker image for VSCode Tunnel</title>
+      <link>http://localhost:1313/pastworks/2024-docker-image-for-vscode-tunnel/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2024-docker-image-for-vscode-tunnel/</guid>
+      <description>&lt;p&gt;Created a Docker image to run VSCode Tunnel with Docker-in-Docker support. The image enables development containers and is published on Docker Hub. Automated builds are available on GitHub for easy updates. This project streamlines remote development workflows using containers.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Run a tunnel for VSCode using Docker&lt;/li&gt;&#xA;&lt;li&gt;Supports Docker-in-Docker, which means support for dev containers&lt;/li&gt;&#xA;&lt;li&gt;Docker image published on &lt;a href=&#34;https://hub.docker.com/r/reverie89/vscode-tunnel&#34;&gt;Docker Hub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Published automated build on &lt;a href=&#34;https://github.com/reverie89/vscode-tunnel&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Image Processor on the web</title>
+      <link>http://localhost:1313/pastworks/2024-image-processor-web/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2024-image-processor-web/</guid>
+      <description>&lt;p&gt;This web-based image processor allows users to upload various image formats or zip files for processing. The Python backend handles watermarking and returns processed files without storing them. The project is packaged with Docker and is publicly available for use and contribution.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upload jpg, png, gif, webp or zip files&lt;/li&gt;&#xA;&lt;li&gt;Python backend will process the image and return the processed file to the user without storing any on the server&lt;/li&gt;&#xA;&lt;li&gt;Option to add image or text watermarking with user provided font or from my repository, adjust opacity and positioning&lt;/li&gt;&#xA;&lt;li&gt;Coded with help from ChatGPT 3.5&lt;/li&gt;&#xA;&lt;li&gt;Packaged with Docker and available to use &lt;a href=&#34;https://img.vtsuki.net&#34;&gt;here&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Docker image published on &lt;a href=&#34;https://hub.docker.com/r/reverie89/image-processor&#34;&gt;Docker Hub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Code published on &lt;a href=&#34;https://github.com/reverie89/image-processor&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Fix video preview duration lengths on Immich</title>
+      <link>http://localhost:1313/pastworks/2024-fix-immich-video-preview-duration/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2024-fix-immich-video-preview-duration/</guid>
+      <description>&lt;p&gt;This project involved diagnosing and fixing a bug in Immich, a self-hosted media backup app, where video preview durations were incorrect. Using AI-assisted coding, a Python script was developed to update sidecar files with accurate durations, successfully correcting hundreds of records.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Immich is a self-hosted photo and video backup solution&lt;/li&gt;&#xA;&lt;li&gt;There seemed to be a bug where the video duration length on preview is not displayed correctly on the app&lt;/li&gt;&#xA;&lt;li&gt;Reported the issue around v1.91.4, still present in v1.93.3&lt;/li&gt;&#xA;&lt;li&gt;The problem probably affected a small number of users only and after investigation, it was actually an easy (but tedious) fix&lt;/li&gt;&#xA;&lt;li&gt;Used CodeGPT Plus to write a Python script to fix the issue&lt;/li&gt;&#xA;&lt;li&gt;Script looks into directories recursively for video files, uses ffprobe to get duration, and updates sidecar files (*.xmp)&lt;/li&gt;&#xA;&lt;li&gt;Tested and updated 776 records successfully&lt;/li&gt;&#xA;&lt;li&gt;Code published on &lt;a href=&#34;https://github.com/reverie89/python-immich-fix-video-preview-time&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Watermark images with Python via Docker</title>
+      <link>http://localhost:1313/pastworks/2023-watermark-images-python-docker/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2023-watermark-images-python-docker/</guid>
+      <description>&lt;p&gt;This project provides a Python program for batch watermarking images, packaged in a Docker container for portability. It supports PNG, JPG, and WEBP formats and is available on GitHub and Docker Hub for easy deployment.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python program that overlays text at a 45-degree angle (watermark) onto image files (png, jpg, webp)&lt;/li&gt;&#xA;&lt;li&gt;Processes locally a batch of files with the allowed extensions (png, jpg, webp) from /input and outputs files into /output&lt;/li&gt;&#xA;&lt;li&gt;Wrapped program with a Docker container to allow portability&lt;/li&gt;&#xA;&lt;li&gt;Code published on &lt;a href=&#34;https://github.com/reverie89/docker-python-watermark&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Container image is on &lt;a href=&#34;https://hub.docker.com/r/reverie89/python-watermark&#34;&gt;Docker Hub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Python 3.11, Pillow 9.0, Docker 23&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>RSVP check-in web app</title>
+      <link>http://localhost:1313/pastworks/2020-rsvp-check-in/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2020-rsvp-check-in/</guid>
+      <description>&lt;p&gt;A simple Python-based website for guest RSVP check-in, featuring CSV import/export and a dashboard for tracking attendance. Developed in two weeks for event management.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Simple website with guest check-in system&lt;/li&gt;&#xA;&lt;li&gt;Created in about 2 weeks with Python&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Docker image for Caddy (&gt;300k pulls!)</title>
+      <link>http://localhost:1313/pastworks/2020-docker-image-for-caddy/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2020-docker-image-for-caddy/</guid>
+      <description>&lt;p&gt;This project involved customizing a Docker image for Caddy web server, adding authentication and DNS plugins, and disabling telemetry. The image simplifies web server setup and is widely used in the community.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Caddy is a lightweight open source web server with automatic HTTPS written in Go.&lt;/li&gt;&#xA;&lt;li&gt;Used builder to add reauth (authentication) and cloudflare (DNS provider) plugins and disabled telemetry.&lt;/li&gt;&#xA;&lt;li&gt;Docker container available on Docker Hub.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>vtsuki.net migration to Docker setup</title>
+      <link>http://localhost:1313/pastworks/2019-vtsuki-net-migration-to-docker-setup/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2019-vtsuki-net-migration-to-docker-setup/</guid>
+      <description>&lt;p&gt;This migration project involved setting up vtsuki.net on Docker, splitting services across multiple VPS instances and securing them with HTTPS and Cloudflare. Storage and memory were optimized for cost efficiency. Internal services were isolated within a Docker network, and a personal profile was added to the site. The setup improved reliability, security, and maintainability for all web services.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add another VPS instance. 1 for web server, another for hobby/Docker 19.03 fun&lt;/li&gt;&#xA;&lt;li&gt;Mount additional storage volume to VPS #2&lt;/li&gt;&#xA;&lt;li&gt;Create swapfile for more memory on non-critical applications (because I am too stingy to pay money to add RAM)&lt;/li&gt;&#xA;&lt;li&gt;All web services are HTTPS with LetsEncrypt and renewed automatically. DNS is proxied through Cloudflare&lt;/li&gt;&#xA;&lt;li&gt;Services which do not need exposure to internet are served within Docker network i.e. only 1 port (HTTP) is exposed, the rest are reverse proxied with Caddy&lt;/li&gt;&#xA;&lt;li&gt;Created personal profile on vtsuki.net&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>GTA-V portblock</title>
+      <link>http://localhost:1313/pastworks/2018-gtav-portblock/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2018-gtav-portblock/</guid>
+      <description>&lt;p&gt;This project involved creating a batch file to manage Windows Firewall for GTA-V, allowing port blocking and whitelisting of IPv4 addresses to enable private online sessions without modifying the game itself.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Created a bat file to simplify management of Windows Firewall for blocking ports and whitelisting IPv4 addresses for PC game Grand Theft Auto V&lt;/li&gt;&#xA;&lt;li&gt;Features such as CEO missions and Biker businesses can only be played in an online session with other players. This can be disruptive especially when there are cheaters (modders) in the game and you want to play your game in peace&lt;/li&gt;&#xA;&lt;li&gt;There is no modification to the underlying game and in fact just stops certain outbound traffic that the game uses to connect to other online sessions and allows specific IPv4 addresses (such as your friend&amp;rsquo;s) to connect to your &amp;ldquo;private&amp;rdquo; online session&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/reverie89/gtav-portblock&#34;&gt;GitHub repo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Contribute to GitHub repo</title>
+      <link>http://localhost:1313/pastworks/2014-contribute-github-repo/</link>
+      <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2014-contribute-github-repo/</guid>
+      <description>&lt;p&gt;Fixed a bug in LinuxGSM for GameServerManagers. The update improved server stability. The contribution is documented in the linked commit. This work shows open source collaboration experience.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Did a bugfix for &lt;a href=&#34;https://github.com/reverie89/linuxgameservers/commit/afb3f89d8ac5fc1f02458798eaeea876491484bb&#34;&gt;GameServerManagers/LinuxGSM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Game forum</title>
+      <link>http://localhost:1313/pastworks/2013-game-forum/</link>
+      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2013-game-forum/</guid>
+      <description>&lt;p&gt;This project involved setting up a game forum and related infrastructure, but was discontinued due to time constraints and lack of visibility.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Forum for games such as Natural Selection 2, Team Fortress 2. Also initially planned to host private game servers. Whole project never actually took off because I was too busy with other matters and neglected the maintenance and the visibility of the website&lt;/li&gt;&#xA;&lt;li&gt;Purchased the domain name, hosted the forum website under one of my Virtual Private Servers (VPS), connected domain to Outlook third-party email service, managed the server administration, firewall security, etc&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Launch of vtsuki.net</title>
+      <link>http://localhost:1313/pastworks/2006-launch-vtsuki-net/</link>
+      <pubDate>Sat, 26 Aug 2006 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2006-launch-vtsuki-net/</guid>
+      <description>&lt;p&gt;A hobby project to launch vtsuki.net with Flash animations, interactive features, and a portfolio page.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attempted to create vtsuki.net website using Macromedia Flash with ActionScript&lt;/li&gt;&#xA;&lt;li&gt;Animated loading progress bar upon opening index&lt;/li&gt;&#xA;&lt;li&gt;Real-time clock at bottom of page, Opening background sound (about 4 seconds), Clickable links at the top menu&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Evo-ViRz.net experimental website</title>
+      <link>http://localhost:1313/pastworks/2005-evovirz-experimental-website/</link>
+      <pubDate>Thu, 09 Jun 2005 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2005-evovirz-experimental-website/</guid>
+      <description>&lt;p&gt;A hobby project to experiment with PHP and web design, including custom images and table-based layout.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First attempt at coding in PHP. Learned GIMP to create associated images. Used table HTML tag for layout&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

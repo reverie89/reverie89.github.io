@@ -70,26 +70,26 @@
         <section id="skills" class="section-item">
           <h2>{{ i18n "about.skills" }}</h2>
           <div class="skills-block">
-            <h3>I work with</h3>
-            {{ range .Params.skills.software }}
-            <i title="{{ .name }}" class="{{ .icon }} fa-3x"></i>
-            {{ end }}
-            <h3>I code in</h3>
-            {{ range .Params.skills.development }}
-            <i title="{{ .name }}" class="{{ .icon }} fa-3x"></i>
-            {{ end }}
-            <h3>I speak</h3>
-            <ul>
-              {{ range .Params.skills.languages }}
-                <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-            <h3>Other Skills</h3>
+            <h3>Core Competencies</h3>
             <ul>
               {{ range .Params.skills.expertise }}
                 <li>{{ . }}</li>
               {{ end }}
             </ul>
+            <h3>Language Proficiency</h3>
+            <ul>
+              {{ range .Params.skills.languages }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+            <h3>Software Proficiency</h3>
+            {{ range .Params.skills.software }}
+            <i title="{{ .name }}" class="{{ .icon }} fa-3x"></i>
+            {{ end }}
+            <h3>Technical Proficiency</h3>
+            {{ range .Params.skills.development }}
+            <i title="{{ .name }}" class="{{ .icon }} fa-3x"></i>
+            {{ end }}
           </div>
         </section>
         <section id="education" class="section-item">

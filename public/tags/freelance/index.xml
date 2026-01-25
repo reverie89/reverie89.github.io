@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freelance on vtsuki.net</title>
+    <link>http://localhost:1313/tags/freelance/</link>
+    <description>Recent content in Freelance on vtsuki.net</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
+    <lastBuildDate>Wed, 09 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/freelance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogshop</title>
+      <link>http://localhost:1313/pastworks/2009-blogshop/</link>
+      <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pastworks/2009-blogshop/</guid>
+      <description>&lt;p&gt;A freelance project to build a blogshop with custom design, admin portal, and order management features using PHP and MySQL.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PHP 5/MySQL5 stack. Website design provided from client&lt;/li&gt;&#xA;&lt;li&gt;Sliced PSD to render the website&lt;/li&gt;&#xA;&lt;li&gt;Website includes an Admin portal for client to edit content and check mailing list members&lt;/li&gt;&#xA;&lt;li&gt;There is also an Ordering Form which works like a Contact Form (emails the designated client about order information for follow-up)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>法人 on vtsuki.net</title>
+    <link>http://localhost:1313/ja/tags/%E6%B3%95%E4%BA%BA/</link>
+    <description>Recent content in 法人 on vtsuki.net</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/tags/%E6%B3%95%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>シンガポール・ナイトフェスティバル2024 - ナイトウォーク</title>
+      <link>http://localhost:1313/ja/pastworks/2024-singapore-night-festival-night-walk/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2024-singapore-night-festival-night-walk/</guid>
+      <description>&lt;p&gt;このプロジェクトでは、シンガポール・ナイトフェスティバル2024向けにゲーミフィケーションWebアプリを開発し、チェックイン、音声ストーリー解除、報酬引換機能を提供しました。クリエイティブ・技術ベンダー、ユーザー、ステークホルダーと短期間で協力し、9日間のイベント期間中に高い参加率とチェックイン数を達成しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NHBゲーミフィケーション報告Webアプリ</title>
+      <link>http://localhost:1313/ja/pastworks/2024-nhb-gamification-reporting-web-app/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2024-nhb-gamification-reporting-web-app/</guid>
+      <description>&lt;p&gt;このプロジェクトは、AWS DynamoDBデータからレポートを生成するNHB向けモバイル対応Webアプリです。NodeJSとAWS Secrets Managerによる安全なメール復号、Pythonライブラリによるデータ処理を特徴とし、MVCアーキテクチャとDockerで構築。企業の報告ニーズに対応したスケーラブルかつ保守性の高い設計です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Heritage Activation Nodes @ Katong Joo Chiat, Jalan Jalan</title>
+      <link>http://localhost:1313/ja/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</guid>
+      <description>&lt;p&gt;Katong Joo Chiat、Jalan JalanでのHeritage Activation Nodes向けに、チェックイン・ストーリー解除・報酬引換ができるゲーミフィケーションWebアプリを開発。15名以上と協力し、短期間で納品しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>シンガポール・ナイトフェスティバル2023 - ナイトウォーク</title>
+      <link>http://localhost:1313/ja/pastworks/2023-singapore-night-festival-night-walk/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2023-singapore-night-festival-night-walk/</guid>
+      <description>&lt;p&gt;このプロジェクトでは、シンガポール・ナイトフェスティバル2023向けにゲーミフィケーションされたWebアプリを開発し、チェックイン、音声ストーリー、報酬機能を提供しました。大規模なコラボレーションのもと開発され、主要イベントで紹介され、高いユーザー参加率と広報効果を達成しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>シンガポール・ナイトフェスティバル2022 - Crossing To The Past</title>
+      <link>http://localhost:1313/ja/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</guid>
+      <description>&lt;p&gt;このプロジェクトでは、Minecraftを活用してシンガポール・ナイトフェスティバルをゲーミフィケーションし、アルメニアンストリートを仮想空間で再現しました。プレイヤーはHeritage IDアカウントを登録し、限定報酬を獲得。ゲームワールドはコーディングスクールや社内関係者と協力して設計・制作しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flutterモバイルアプリ</title>
+      <link>http://localhost:1313/ja/pastworks/2020-flutter-mobile-app/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2020-flutter-mobile-app/</guid>
+      <description>&lt;p&gt;このプロジェクトでは、Flutterを学び、製品トレーサビリティやサービス設置のためのフロントエンドモバイルアプリを開発しました。主要機能をデモし、FirebaseなどのNoSQLデータベース接続にも拡張可能です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>地元企業向けWordPressウェブサイト</title>
+      <link>http://localhost:1313/ja/pastworks/2014-wordpress-website-local-business/</link>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2014-wordpress-website-local-business/</guid>
+      <description>&lt;p&gt;地元企業のためにWordPressウェブサイトを開発・カスタマイズし、ウェブホスティングやメール設定も担当。オンラインでの存在感を強化。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;地元中小企業向けにWordPress 3.7.xテーマをカスタマイズ&lt;/li&gt;&#xA;&lt;li&gt;クライアントのためにウェブホスティングとメールサービスの設定も手配&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>情報管理システムWebアプリ</title>
+      <link>http://localhost:1313/ja/pastworks/2011-information-management-system-web-app/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2011-information-management-system-web-app/</guid>
+      <description>&lt;p&gt;PHPとMySQLで構築したデジタル記録管理用Webアプリ。ユーザープロファイル、ロケーション、在庫管理、日次バックアップ、管理者向け可視化ツールをサポート。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ZenochFashion zencartカスタマイズ・設定・ホスティング</title>
+      <link>http://localhost:1313/ja/pastworks/2007-zenochfashion/</link>
+      <pubDate>Wed, 21 Feb 2007 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2007-zenochfashion/</guid>
+      <description>&lt;p&gt;ファッション小売業者向けにZenCartを使ってECサイトを構築・カスタマイズしたフリーランスプロジェクト。ホスティングやドメイン設定も担当。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

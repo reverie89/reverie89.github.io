@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freelance on vtsuki.net</title>
+    <link>http://localhost:1313/sg/tags/freelance/</link>
+    <description>Recent content in Freelance on vtsuki.net</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
+    <lastBuildDate>Wed, 09 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sg/tags/freelance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogshop</title>
+      <link>http://localhost:1313/sg/pastworks/2009-blogshop/</link>
+      <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2009-blogshop/</guid>
+      <description>&lt;p&gt;Freelance project to build blogshop, custom design, got admin portal and order management, all use PHP and MySQL.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use PHP 5/MySQL5 stack, client give the design inspired by blogshops, I just follow&lt;/li&gt;&#xA;&lt;li&gt;Slice PSD to make the website&lt;/li&gt;&#xA;&lt;li&gt;Also made a basic Admin portal so client can go in edit content and check mailing list, everything easy&lt;/li&gt;&#xA;&lt;li&gt;Ordering Form work like Contact Form, will email client about order info and they can follow up over email&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学校 on vtsuki.net</title>
+    <link>http://localhost:1313/ja/tags/%E5%AD%A6%E6%A0%A1/</link>
+    <description>Recent content in 学校 on vtsuki.net</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
+    <lastBuildDate>Mon, 17 Mar 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/tags/%E5%AD%A6%E6%A0%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FundzForFun</title>
+      <link>http://localhost:1313/ja/pastworks/2008-fundzforfun/</link>
+      <pubDate>Mon, 17 Mar 2008 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2008-fundzforfun/</guid>
+      <description>&lt;p&gt;金融リテラシー向上を目的としたゲーミフィケーションウェブサイトの学校プロジェクト。遊び方やプレゼン資料も含む。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;学校プロジェクト（コーポレートファイナンス＆アドバイザリーサービス科目）&lt;/li&gt;&#xA;&lt;li&gt;ゲーミフィケーションで金融リテラシー向上を目指す&lt;/li&gt;&#xA;&lt;li&gt;ゲームのプレゼンはウェブサイトで実施&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fundzforfun.vtsuki.net/&#34;&gt;ウェブサイトはこちら&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>ノースイースト・バーチャル・ヘリテージ・トレイル</title>
+      <link>http://localhost:1313/ja/pastworks/2004-north-east-virtual-heritage-trail/</link>
+      <pubDate>Sat, 27 Mar 2004 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2004-north-east-virtual-heritage-trail/</guid>
+      <description>&lt;p&gt;シンガポールのノースイースト・バーチャル・ヘリテージ・トレイルのウェブサイトをデザイン・開発する学校間競技プロジェクト。インタラクティブな地図、ギャラリー、クイズ、動的コンテンツを備え、1位準優勝を受賞。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

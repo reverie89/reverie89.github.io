@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>趣味 on vtsuki.net</title>
+    <link>http://localhost:1313/ja/tags/%E8%B6%A3%E5%91%B3/</link>
+    <description>Recent content in 趣味 on vtsuki.net</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/tags/%E8%B6%A3%E5%91%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vtsuki.netリニューアル</title>
+      <link>http://localhost:1313/ja/pastworks/2025-vtsuki-revamp/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2025-vtsuki-revamp/</guid>
+      <description>&lt;p&gt;vtsuki.netはHugoとエージェントAIプロンプトで再構築されました。サイトはモダンなデザイン、テーマ切替、モバイル対応、高度な自動化を備えています。日本語とシングリッシュのコンテンツはAI生成、GitHub Pagesで公開。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ESP32によるIoT水耕栽培自動給水システム</title>
+      <link>http://localhost:1313/ja/pastworks/2025-iot-hydroponic-watering-system-esp32/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2025-iot-hydroponic-watering-system-esp32/</guid>
+      <description>&lt;p&gt;このプロジェクトは、ESP32マイコンを使った自動水耕栽培給水システムです。水量を確認してから、必要な濃度で養液を混合。ポンプ用12V電源1つで動作し、マイコンやセンサー用に電圧変換して効率的かつ安定した運用を実現しています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VSCodeトンネル用Dockerイメージ</title>
+      <link>http://localhost:1313/ja/pastworks/2024-docker-image-for-vscode-tunnel/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2024-docker-image-for-vscode-tunnel/</guid>
+      <description>&lt;p&gt;VSCodeトンネルをDockerで実行するためのDockerイメージを作成しました。Docker-in-Docker対応で開発コンテナも利用可能です。Docker Hubで公開されており、GitHubで自動ビルドも提供しています。このプロジェクトはリモート開発の効率化に貢献します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web上の画像処理ツール</title>
+      <link>http://localhost:1313/ja/pastworks/2024-image-processor-web/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2024-image-processor-web/</guid>
+      <description>&lt;p&gt;このWebベースの画像処理ツールは、様々な画像形式やzipファイルのアップロードに対応。Pythonバックエンドがウォーターマーク処理を行い、サーバーに保存せずに処理済みファイルを返します。Dockerでパッケージ化され、公開利用・貢献が可能です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Immichの動画プレビュー時間修正</title>
+      <link>http://localhost:1313/ja/pastworks/2024-fix-immich-video-preview-duration/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2024-fix-immich-video-preview-duration/</guid>
+      <description>&lt;p&gt;このプロジェクトでは、セルフホスト型メディアバックアップアプリ「Immich」で動画プレビュー時間が正しく表示されないバグを調査・修正しました。AI支援でPythonスクリプトを作成し、正確な時間でサイドカーファイルを更新。数百件のレコードを正常に修正しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python＋Dockerで画像にウォーターマーク</title>
+      <link>http://localhost:1313/ja/pastworks/2023-watermark-images-python-docker/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2023-watermark-images-python-docker/</guid>
+      <description>&lt;p&gt;このプロジェクトは、画像にウォーターマーク（透かし）を一括で追加するPythonプログラムをDockerコンテナで提供します。PNG、JPG、WEBP形式に対応し、GitHubとDocker Hubで公開されています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RSVPチェックインウェブアプリ</title>
+      <link>http://localhost:1313/ja/pastworks/2020-rsvp-check-in/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2020-rsvp-check-in/</guid>
+      <description>&lt;p&gt;CSVインポート・エクスポート機能と出席管理ダッシュボードを備えた、ゲストRSVPチェックイン用のシンプルなPython製ウェブサイト。イベント管理のため2週間で開発。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Caddy用Dockerイメージ（30万回以上DL！）</title>
+      <link>http://localhost:1313/ja/pastworks/2020-docker-image-for-caddy/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2020-docker-image-for-caddy/</guid>
+      <description>&lt;p&gt;このプロジェクトでは、Caddyウェブサーバー用のDockerイメージをカスタマイズし、認証やDNSプラグインを追加、テレメトリーを無効化しました。イメージはウェブサーバーのセットアップを簡素化し、コミュニティで広く利用されています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>vtsuki.netのDocker環境への移行</title>
+      <link>http://localhost:1313/ja/pastworks/2019-vtsuki-net-migration-to-docker-setup/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2019-vtsuki-net-migration-to-docker-setup/</guid>
+      <description>&lt;p&gt;この移行プロジェクトでは、Docker環境で構築し、複数のVPSインスタンスにサービスを分割、HTTPSとCloudflareでセキュリティを強化しました。ストレージとメモリもコスト効率を考慮して最適化。内部サービスはDockerネットワーク内で隔離し、個人プロフィールもサイトに追加。全Webサービスの信頼性・セキュリティ・保守性が向上しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GTA-Vポートブロック</title>
+      <link>http://localhost:1313/ja/pastworks/2018-gtav-portblock/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2018-gtav-portblock/</guid>
+      <description>&lt;p&gt;このプロジェクトでは、GTA-VのためにWindowsファイアウォールを管理するバッチファイルを作成し、ポートのブロックやIPv4アドレスのホワイトリスト化を行い、ゲーム本体を改造せずにプライベートオンラインセッションを可能にしました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHubリポジトリへの貢献</title>
+      <link>http://localhost:1313/ja/pastworks/2014-contribute-github-repo/</link>
+      <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2014-contribute-github-repo/</guid>
+      <description>&lt;p&gt;LinuxGSMのバグを修正し、GameServerManagersに貢献しました。アップデートによりサーバーの安定性が向上しました。貢献内容はリンク先のコミットで確認できます。この作業はオープンソース協力の経験を示しています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ゲームフォーラム</title>
+      <link>http://localhost:1313/ja/pastworks/2013-game-forum/</link>
+      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2013-game-forum/</guid>
+      <description>&lt;p&gt;ゲームフォーラムと関連インフラの構築を試みたプロジェクトですが、時間不足と認知度の低さ原因を基づき中止。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Natural Selection 2やTeam Fortress 2などのゲーム用フォーラム。プライベートゲームサーバーのホストも計画していたが、他の事で忙しくなり、メンテナンスや認知度が足りず実現せず&lt;/li&gt;&#xA;&lt;li&gt;ドメイン名を購入し、VPSでフォーラムサイトをホスト。ドメインをOutlookのサードパーティメールサービスに接続し、サーバー管理やファイアウォールセキュリティも担当&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>vtsuki.netの開設</title>
+      <link>http://localhost:1313/ja/pastworks/2006-launch-vtsuki-net/</link>
+      <pubDate>Sat, 26 Aug 2006 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2006-launch-vtsuki-net/</guid>
+      <description>&lt;p&gt;Flashアニメーション、インタラクティブ機能、ポートフォリオページを備えたvtsuki.netの開設趣味プロジェクト。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Macromedia FlashとActionScriptでvtsuki.netのウェブサイト作成に挑戦&lt;/li&gt;&#xA;&lt;li&gt;インデックスを開くとアニメーション付きローディングプログレスバー表示&lt;/li&gt;&#xA;&lt;li&gt;ページ下部にリアルタイム時計、オープニング背景音（約4秒）、トップメニューにクリック可能なリンク&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Evo-ViRz.net 実験的ウェブサイト</title>
+      <link>http://localhost:1313/ja/pastworks/2005-evovirz-experimental-website/</link>
+      <pubDate>Thu, 09 Jun 2005 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/pastworks/2005-evovirz-experimental-website/</guid>
+      <description>&lt;p&gt;PHPとウェブデザインを実験するための趣味プロジェクト。カスタム画像やテーブルレイアウトを使用。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;初めてPHPのコーディングに挑戦。関連画像作成のためにGIMPを習得。レイアウトにはHTMLのtableタグを使用。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

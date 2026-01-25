@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corporate on vtsuki.net</title>
+    <link>http://localhost:1313/sg/tags/corporate/</link>
+    <description>Recent content in Corporate on vtsuki.net</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
+    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sg/tags/corporate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026 MR Hongbao Campaign</title>
+      <link>http://localhost:1313/sg/pastworks/2026-mr-hongbao-campaign/</link>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2026-mr-hongbao-campaign/</guid>
+      <description>&lt;p&gt;This was a partnership with the &lt;a href=&#34;https://www.nhb.gov.sg/what-we-do/our-work/sector-development/museum-roundtable/2026-museum-roundtable-lunar-new-year-hongbao-campaign&#34;&gt;2026 Museum Roundtable (MR) Lunar New Year Hongbao Campaign&lt;/a&gt; to launch a treasure-hunting type of game titled Hongbao Hunt lah! It&amp;rsquo;s a super shiok gamified digital experience for everyone to play at six (6) participating museums and heritage institutions to collect Lunar New Year ang baos one. The event ran for one (1) month from 23 January 2026 to 15 February 2026, very happening timing! Participants log into the web game using their Singpass, scan the artefact by solving a riddle and collect their prize at the designated vending machines located in the museums. Public feedback was very positive and the ang baos at several museums were mostly redeemed by the first weekend - so popular until finished so fast!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Singapore Night Festival 2024 - Night Walk</title>
+      <link>http://localhost:1313/sg/pastworks/2024-singapore-night-festival-night-walk/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2024-singapore-night-festival-night-walk/</guid>
+      <description>&lt;p&gt;This project make gamified web app for Singapore Night Festival 2024, can check in, redeem freebies. Work with creative and tech vendors, users, stakeholders, finish in short time. App engage participants for 9-day event, a lot of signups and check-ins.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app like Pokemon Go for Night Festival&lt;/li&gt;&#xA;&lt;li&gt;Login &amp;gt; check-in &amp;gt; unlock audio stories &amp;gt; redeem rewards, all in one app&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>NHB gamification reporting web app</title>
+      <link>http://localhost:1313/sg/pastworks/2024-nhb-gamification-reporting-web-app/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2024-nhb-gamification-reporting-web-app/</guid>
+      <description>&lt;p&gt;This project is mobile-friendly web app for NHB, generate reports from AWS DynamoDB data. Got secure email decryption using NodeJS and AWS Secrets Manager, use Python libraries for data processing. MVC architecture, Docker deploy, easy to scale and maintain.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app generate reports from AWS DynamoDB data&lt;/li&gt;&#xA;&lt;li&gt;Decrypt email using encryption key (AWS Secrets Manager), IV, salt, NodeJS vendor code&lt;/li&gt;&#xA;&lt;li&gt;Use Python libraries: gunicorn, flask, pandas, cryptography&lt;/li&gt;&#xA;&lt;li&gt;MVC design, Docker/Python/Bootstrap stack&lt;/li&gt;&#xA;&lt;li&gt;Mobile responsive, can use on phone&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Heritage Activation Nodes @ Katong Joo Chiat, Jalan Jalan</title>
+      <link>http://localhost:1313/sg/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</guid>
+      <description>&lt;p&gt;Gamified web app for Heritage Activation Nodes at Katong Joo Chiat, Jalan Jalan, can check in, unlock stories, redeem rewards. Work with more than 15 people, finish in short time.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app like Pokemon Go for Heritage Activation Nodes, Jalan Jalan&lt;/li&gt;&#xA;&lt;li&gt;Login &amp;gt; check-in &amp;gt; unlock stories &amp;gt; redeem rewards, everything inside&lt;/li&gt;&#xA;&lt;li&gt;Work with more than 15 people over 2.5 months&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Singapore Night Festival 2023 - Night Walk</title>
+      <link>http://localhost:1313/sg/pastworks/2023-singapore-night-festival-night-walk/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2023-singapore-night-festival-night-walk/</guid>
+      <description>&lt;p&gt;This project make gamified web app for Singapore Night Festival 2023, got check-in, audio stories, and rewards. Work with many people, showcase at big events, user engagement and publicity very high.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app like Pokemon Go for Night Festival&lt;/li&gt;&#xA;&lt;li&gt;Login &amp;gt; check-in &amp;gt; unlock audio stories &amp;gt; redeem rewards, all in one app&lt;/li&gt;&#xA;&lt;li&gt;Work with 52 people over 2.5 months, got creative, dev, AWS, API, monitoring, users, event, stakeholders, all join in&lt;/li&gt;&#xA;&lt;li&gt;2,700 user signups, 8,000 check-ins in 9 days, very happening&lt;/li&gt;&#xA;&lt;li&gt;Also get creative services for publicity (Facebook, Instagram, TikTok)&lt;/li&gt;&#xA;&lt;li&gt;App showcase at Singapore Geospatial Festival 2023&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Singapore Night Festival 2022 - Crossing To The Past (Minecraft)</title>
+      <link>http://localhost:1313/sg/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</guid>
+      <description>&lt;p&gt;This project use Minecraft to gamify Singapore Night Festival, recreate Armenian Street in virtual world. Players register Heritage ID, get exclusive rewards, game world design together with coding school and internal team.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Minecraft as pilot digital initiative to gamify Singapore Night Festival&lt;/li&gt;&#xA;&lt;li&gt;Recreate Armenian Street in Minecraft, can walk around and explore&lt;/li&gt;&#xA;&lt;li&gt;Players sign up Heritage ID to play, get special rewards&lt;/li&gt;&#xA;&lt;li&gt;Work with coding school to design game world, art content collaborate with internal team&lt;/li&gt;&#xA;&lt;li&gt;Players get festival exclusive keychain for joining&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Flutter mobile app</title>
+      <link>http://localhost:1313/sg/pastworks/2020-flutter-mobile-app/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2020-flutter-mobile-app/</guid>
+      <description>&lt;p&gt;This project learn Flutter and build front-end mobile app for product traceability and service installation. Got demo features, can extend to connect NoSQL DB like Firebase.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Manage and oversee corporate mobile app for product traceability and service installation&lt;/li&gt;&#xA;&lt;li&gt;Learn Flutter v1.17 from YouTube, build my own version, not same as company app (company use React Native, mine is Dart)&lt;/li&gt;&#xA;&lt;li&gt;Only code front-end, if want can connect to NoSQL DB like Firebase, just change code a bit&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>WordPress website for local business</title>
+      <link>http://localhost:1313/sg/pastworks/2014-wordpress-website-local-business/</link>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2014-wordpress-website-local-business/</guid>
+      <description>&lt;p&gt;Help local business make WordPress website, customize everything, also setup webhosting and email, make their online presence more solid.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Customize WordPress 3.7.x theme for local SME, make it look nice nice&lt;/li&gt;&#xA;&lt;li&gt;Also help client setup webhosting and email, everything settle for them&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Information Management System web app</title>
+      <link>http://localhost:1313/sg/pastworks/2011-information-management-system-web-app/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2011-information-management-system-web-app/</guid>
+      <description>&lt;p&gt;Web app for digital record keeping, all use PHP and MySQL, got user profiles, locations, inventory, daily backup, and admin can see everything on map.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use WAMP stack to digitalize record keeping, setup everything myself&lt;/li&gt;&#xA;&lt;li&gt;Gather user requirements on the job, learn as I go&lt;/li&gt;&#xA;&lt;li&gt;Full SDLC in 9 months, use PHP 5, MySQL 5, jQuery 1.4, quite solid&lt;/li&gt;&#xA;&lt;li&gt;Also setup servers and network for system go-live, everything settle&lt;/li&gt;&#xA;&lt;li&gt;Got user profile, location, activity, inventory, all inside&lt;/li&gt;&#xA;&lt;li&gt;Admin can see user location and status on map, very clear one&lt;/li&gt;&#xA;&lt;li&gt;Database backup every day, no worry&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>ZenochFashion zencart customization, setup, hosting</title>
+      <link>http://localhost:1313/sg/pastworks/2007-zenochfashion/</link>
+      <pubDate>Wed, 21 Feb 2007 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sg/pastworks/2007-zenochfashion/</guid>
+      <description>&lt;p&gt;This one freelance project, help fashion shop build and customize e-commerce website using ZenCart, also settle hosting and domain for them.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First time do freelance website project&lt;/li&gt;&#xA;&lt;li&gt;Customize and setup ZenCart for fashion retailer, make the shop look nice nice&lt;/li&gt;&#xA;&lt;li&gt;That time no payment gateway yet, just browse and see only&lt;/li&gt;&#xA;&lt;li&gt;Also help client setup web hosting and domain, everything settle for them&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

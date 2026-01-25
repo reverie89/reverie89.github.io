@@ -16,7 +16,7 @@ socials:
     icon: "fa-brands fa-docker"
     url: "https://hub.docker.com/u/reverie89"
 
-intro: "Dynamic and results-driven product management professional with over 9 years of experience in leading secure, scalable and efficient cloud-based mobile and web solutions. Adept at resolving complex challenges with a surgical analytical approach, with expertise in agile methodologies, cloud applications and strategic stakeholder management."
+intro: "Product Leader with 9+ years of experience bridging government policy and cloud technology. Currently leading a multi-disciplinary squad (UX, Support, AI) at the National Heritage Board to deliver award-winning digital experiences. Expertise in navigating IM8 (government security compliance) and procurement processes to launch cloud-native public-facing products."
 
 experience:
   - period: "July 2023 - Present"
@@ -25,22 +25,22 @@ experience:
     title: "Manager for Gamification & Product Delivery"
     logo: "national-heritage-board.webp"
     details:
-      - "Architected the AI Data Platform project’s applications and GCC setup."
-      - "Spearheaded and led large cross-functional teams to transform, develop and launch Gamification-as-a-Service cloud platform solution."
+      - "Lead a cross-functional team of 4 direct reports (UX, Tech Support, PM) and managed external vendor teams of 20+."
+      - "Defined the AI product roadmap resulting in the approval to hire dedicated AI Product Manager and deployment of AI Data Platform."
+      - "Spearheaded large cross-functional teams to transform, develop and launch Gamification-as-a-Service cloud platform solution."
+      - "Co-launched Hongbao Hunt game for 2026 Museum Roundtable Lunar New Year Hongbao Campaign"
       - "Co-led a team of 24 in the digital solutioning and launch of the National Museum Singapore's Disco interactive pop-up room, acquiring over 6,000 unique signups and exceeding 10,000 plays."
       - "Directed a team of 22 to launch and operate a highly engaging interactive gamified booth event for the Singapore Night Festival 2022."
       - "Oversaw the design, implementation and maintenance of the application, DevOps pipelines and cloud infrastructure."
-      - "Managed a team of Product Support Consultants to ensure optimal service delivery."
   - period: "September 2020 - July 2023"
     location: "sg"
     company: "National Heritage Board"
     title: "Assistant Manager for Product Delivery"
     logo: "national-heritage-board.webp"
     details:
-      - "Managed the operational delivery and maintenance of 19 National Heritage Board (NHB) websites."
+      - "Managed the operations and maintenance for 19 National Heritage Board (NHB) websites."
       - "Recognized with the Whole-of-Government Digital Service Awards in 2022 and 2021 for digital service standard excellence for NHB websites."
       - "Implemented gamification, incentivization initiatives for museum and festival events."
-      - "Onboarded RPA tool for Product Delivery team."
       - "Mentored Application Support Specialists on participating projects."
   - period: "August 2018 - September 2020"
     location: "sg"
@@ -85,6 +85,19 @@ experience:
       - "Established robust intranet infrastructure for on-premise deployment and implemented a reliable data backup solution."
 
 skills:
+  expertise:
+    - "Generative AI integration"
+    - "Product Strategy, Roadmap"
+    - "Cross-functional Team Leadership"
+    - "Stakeholder (Govt), Agile Leadership, Vendor Management"
+    - "Mobile/Web app UX and Development"
+    - "System Process Flow Design"
+    - "Cloud Infrastructure, DevOps Design"
+    - "Gamification, Incentivization"
+  languages:
+    - "English (native)"
+    - "Mandarin Chinese (native)"
+    - "Japanese (fluent, JLPT N1)"
   software:
     - name: "Atlassian Jira"
       icon: "fa-brands fa-jira"
@@ -115,21 +128,6 @@ skills:
       icon: "fa-brands fa-php"
     - name: "Flutter"
       icon: "fa-brands fa-flutter"
-  languages:
-    - "English (native)"
-    - "Mandarin Chinese (native)"
-    - "Japanese (fluent, JLPT N1)"
-  expertise:
-    - "AI Prompt Engineering"
-    - "Product Management"
-    - "Cross-functional Team Leadership"
-    - "Agile Methodologies (Scrum, Hybrid)"
-    - "Cloud Infrastructure Design"
-    - "Continuous Integration/Continuous Delivery Design"
-    - "Mobile/Web app UX and Development"
-    - "System Process Flow Design"
-    - "Stakeholder Management"
-    - "Gamification"
 
 education:
   - school: "Udacity x Temasek Polytechnic"
@@ -140,10 +138,13 @@ education:
     period: "June 2011 - January 2018"
     details:
       - "Completed and achieved Affiliate with ACCA"
-      - "Professional Level exams completed"
+      - "Completed Professional Level exams for `Advanced Performance Management` and `Advanced Audit & Assurance`, "
   - school: "Oxford Brookes University"
     degree: "Bachelor of Science (Honours) in Applied Accounting"
     period: "June 2011 - March 2013"
+    details:
+      - "Graduate Speaker at the Regional Graduation Ceremony"
+      - "Researched and completed report on financial and business analysis of a large organization the oil and gas industry with the use of a comparable competitor for benchmark"
   - school: "Ngee Ann Polytechnic"
     degree: "Diploma in Banking & Financial Services"
     period: "April 2006 - May 2009"
@@ -153,6 +154,12 @@ education:
       - "Team leader in various school projects"
       - "Completed internship at Societe Generale"
       - "Completed internship at Merrill Lynch"
+  - school: "Holy Innocents' High School"
+    degree: "GCE 'O' Levels"
+    period: "2002 - 2005"
+    details:
+      - "1st runner-up and Team Leader in North East Virtual Heritage Competition 2004 from developing a fun-filled and interactive educational website on Singapore’s northeast heritage."
+      - "Participated in 12th Inter-School Micromouse Competition 2002 by programming pathway algorithms onto a robot to exit a maze in the most efficient manner."
 
 badges:
   - name: "Professional Scrum Product Owner Level 1"

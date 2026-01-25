@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="PHPとMySQLを使い、カスタムデザイン・管理ポータル・注文管理機能を備えたBlogshopを構築したフリーランスプロジェクト。
+PHP 5/MySQL5スタック。ウェブサイトデザインはクライアント提供 PSDをスライスしてウェブサイトを作成 クライアントがコンテンツ編集やメーリングリスト管理できる管理ポータルを実装 注文フォームはコンタクトフォームのように機能し、注文情報をクライアントにメール送信してフォローアップ " />
+<meta name="keywords" content="reverie89, フリーランス" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/ja/pastworks/2009-blogshop/" />
+
+
+    <title>
+        
+            vtsuki.net :: Blogshop
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.509268c72797b684478849a5f2fd2ba5a10eba12d8d593e7f784591b32638d25.css" integrity="sha256-UJJoxyeXtoRHiEml8v0rpaEOuhLY1ZPn94RZGzJjjSU=" crossorigin="anonymous">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/js/all.min.js" integrity="sha256-BAR0H3Qu2PCfoVr6CtZrcnbK3VKenmUF9C6IqgsNsNU=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/fontawesome.min.css" integrity="sha256-TBe0l9PhFaVR3DwHmA2jQbUf1y6yQ22RBgJKKkNkC50=" crossorigin="anonymous">
+
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="vtsuki.net" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
+
+
+
+  <meta itemprop="name" content="Blogshop">
+  <meta itemprop="description" content="PHPとMySQLを使い、カスタムデザイン・管理ポータル・注文管理機能を備えたBlogshopを構築したフリーランスプロジェクト。
+PHP 5/MySQL5スタック。ウェブサイトデザインはクライアント提供 PSDをスライスしてウェブサイトを作成 クライアントがコンテンツ編集やメーリングリスト管理できる管理ポータルを実装 注文フォームはコンタクトフォームのように機能し、注文情報をクライアントにメール送信してフォローアップ">
+  <meta itemprop="datePublished" content="2009-09-09T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2009-09-09T00:00:00+00:00">
+  <meta itemprop="wordCount" content="204">
+  <meta itemprop="keywords" content="フリーランス">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blogshop">
+  <meta name="twitter:description" content="PHPとMySQLを使い、カスタムデザイン・管理ポータル・注文管理機能を備えたBlogshopを構築したフリーランスプロジェクト。
+PHP 5/MySQL5スタック。ウェブサイトデザインはクライアント提供 PSDをスライスしてウェブサイトを作成 クライアントがコンテンツ編集やメーリングリスト管理できる管理ポータルを実装 注文フォームはコンタクトフォームのように機能し、注文情報をクライアントにメール送信してフォローアップ">
+
+
+
+    <meta property="og:url" content="http://localhost:1313/ja/pastworks/2009-blogshop/">
+  <meta property="og:site_name" content="vtsuki.net">
+  <meta property="og:title" content="Blogshop">
+  <meta property="og:description" content="PHPとMySQLを使い、カスタムデザイン・管理ポータル・注文管理機能を備えたBlogshopを構築したフリーランスプロジェクト。
+PHP 5/MySQL5スタック。ウェブサイトデザインはクライアント提供 PSDをスライスしてウェブサイトを作成 クライアントがコンテンツ編集やメーリングリスト管理できる管理ポータルを実装 注文フォームはコンタクトフォームのように機能し、注文情報をクライアントにメール送信してフォローアップ">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="pastworks">
+    <meta property="article:published_time" content="2009-09-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2009-09-09T00:00:00+00:00">
+    <meta property="article:tag" content="フリーランス">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2009-09-09 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container" id="top">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/ja/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                vtsuki.net</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/ja/about">プロフィール</a></li><li><a href="/ja/thanks">ご支援者</a></li>
+        <ul class="submenu">
+            <li class="dropdown">
+                <a title="日本語" href="javascript:void(0)" class="dropbtn"><span class="fi fi-jp"></span></a>
+                <div class="dropdown-content">
+                        
+                            <a title="Singlish" href="http://localhost:1313/sg/pastworks/2009-blogshop/"><span class="fi fi-sg"></span></a>
+                        
+                            <a title="English" href="http://localhost:1313/pastworks/2009-blogshop/"><span class="fi fi-gb"></span></a>
+                        
+                </div>
+            </li>
+        </ul>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+<main class="post">
+
+    <a href="/pastworks" class="back-button">&larr; 戻る</a>
+
+    <div class="post-info">
+        
+            他の言語
+            
+                <a href="http://localhost:1313/sg/pastworks/2009-blogshop/"><span class="fi fi-sg"></span></a>
+            
+                <a href="http://localhost:1313/pastworks/2009-blogshop/"><span class="fi fi-gb"></span></a>
+            
+        
+    </div>
+
+    <article>
+        <h2 class="post-title">Blogshop</h2>
+
+        <div class="post-info">
+            Year: 2009 &nbsp;|&nbsp;
+            
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+    <span class="tag"><a href="http://localhost:1313/ja/tags/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9/">フリーランス</a></span>
+    
+
+
+        </div>
+
+        <div class="post-content">
+        <p>PHPとMySQLを使い、カスタムデザイン・管理ポータル・注文管理機能を備えたBlogshopを構築したフリーランスプロジェクト。</p>
+<ul>
+<li>PHP 5/MySQL5スタック。ウェブサイトデザインはクライアント提供</li>
+<li>PSDをスライスしてウェブサイトを作成</li>
+<li>クライアントがコンテンツ編集やメーリングリスト管理できる管理ポータルを実装</li>
+<li>注文フォームはコンタクトフォームのように機能し、注文情報をクライアントにメール送信してフォローアップ</li>
+</ul>
+
+        </div>
+
+    
+      
+
+      
+      
+          <link rel="stylesheet" href="/lightbox.min.687bb1512081229cf89d6c68a1731fe780d10a9099d96b8e88b7196844fcc89d.css" integrity="sha256-aHuxUSCBIpz4nWxooXMf54DRCpCZ2WuOiLcZaET8yJ0=" crossorigin="anonymous">
+      
+      
+          <script type="text/javascript" src="/js/lightbox.min.1248c976bbe76daffff6960aee1ae4cc3836bf28cffcb48888b33ba3942011ff.js" integrity="sha256-EkjJdrvnba//9pYK7hrkzDg2vyjP/LSIiLM7o5QgEf8=" crossorigin="anonymous"></script>
+      
+      <ul class="image-gallery">
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_1_index.webp" title="クライアント向けにデザインしたBlogshopのホームページ。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_1_index_hu_708f960a5afdb5b6.webp" alt="クライアント向けにデザインしたBlogshopのホームページ。" title="クライアント向けにデザインしたBlogshopのホームページ。">
+              
+              <span>クライアント向けにデザインしたBlogshopのホームページ。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_2_aboutus.webp" title="Blogshopの会社概要ページ。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_2_aboutus_hu_2ca6fccc954f153d.webp" alt="Blogshopの会社概要ページ。" title="Blogshopの会社概要ページ。">
+              
+              <span>Blogshopの会社概要ページ。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_3_contactus.webp" title="Blogshopのお問い合わせページ。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_3_contactus_hu_1154e33fc78d2e49.webp" alt="Blogshopのお問い合わせページ。" title="Blogshopのお問い合わせページ。">
+              
+              <span>Blogshopのお問い合わせページ。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_4_faq.webp" title="BlogshopのFAQセクション。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_4_faq_hu_1348c11acb43ba5f.webp" alt="BlogshopのFAQセクション。" title="BlogshopのFAQセクション。">
+              
+              <span>BlogshopのFAQセクション。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_5_newarrivals.webp" title="Blogshopの新着商品紹介ページ。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_5_newarrivals_hu_5519add421836930.webp" alt="Blogshopの新着商品紹介ページ。" title="Blogshopの新着商品紹介ページ。">
+              
+              <span>Blogshopの新着商品紹介ページ。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_6_orderform.webp" title="Blogshopの注文フォーム画面。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_6_orderform_hu_72eb0d8433df1194.webp" alt="Blogshopの注文フォーム画面。" title="Blogshopの注文フォーム画面。">
+              
+              <span>Blogshopの注文フォーム画面。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_7_ordering.webp" title="Blogshopの注文プロセスページ。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_7_ordering_hu_bb06ed8bfcd63d54.webp" alt="Blogshopの注文プロセスページ。" title="Blogshopの注文プロセスページ。">
+              
+              <span>Blogshopの注文プロセスページ。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_8_privacypolicy.webp" title="Blogshopのプライバシーポリシーページ。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_8_privacypolicy_hu_dbafd5a0a093668b.webp" alt="Blogshopのプライバシーポリシーページ。" title="Blogshopのプライバシーポリシーページ。">
+              
+              <span>Blogshopのプライバシーポリシーページ。</span>
+          </a>
+          </li>
+          
+      
+          
+          
+          
+          <li>
+          <a href="http://localhost:1313/pastworks/2009-blogshop/2009_chersamme_9_termscond.webp" title="Blogshopの利用規約ページ。" class="lightbox-image">
+              
+              <img src="/pastworks/2009-blogshop/2009_chersamme_9_termscond_hu_72d0be259e1b4c8d.webp" alt="Blogshopの利用規約ページ。" title="Blogshopの利用規約ページ。">
+              
+              <span>Blogshopの利用規約ページ。</span>
+          </a>
+          </li>
+          
+      
+      </ul>
+    
+    </article>
+
+    <hr />
+
+  
+  <nav class="portfolio-pagination pagination">
+    <div class="pagination__buttons">
+      
+        <span class="button previous">
+          <a href="/ja/pastworks/2008-fundzforfun/">
+            <span class="button__icon">&larr;</span>
+            <span class="button__text">前</span>
+          </a>
+        </span>
+      
+      
+        <span class="button next">
+          <a href="/ja/pastworks/2011-information-management-system-web-app/">
+            <span class="button__text">次</span>
+            <span class="button__icon">&rarr;</span>
+          </a>
+        </span>
+      
+    </div>
+  </nav>
+
+    </main>
+
+            </div>
+
+            
+                <button id="backToTopBtn" class="back-to-top-overlay" title="Back to top">
+      <i class="fa-solid fa-arrow-up-from-bracket"></i>
+    </button>
+<script>
+    
+      var backToTopBtn = document.getElementById('backToTopBtn');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 200) {
+          backToTopBtn.style.display = 'block';
+        } else {
+          backToTopBtn.style.display = 'none';
+        }
+      });
+      backToTopBtn.addEventListener('click', function() {
+        document.getElementById('top').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+</script>
+<footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+            <span>&#169; 2006 - 2025 vtsuki.net</span>
+            
+            
+        </div>
+    </div>
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.ad54ad97364f77ede35def9096b162bb1f0b3973aa50b080f5e82fa147f6882e2a7200d7535adbf9b51bebf939f1c1ca9bbe6be87530092aca720eac4a226fda.js" integrity="sha512-rVStlzZPd&#43;3jXe&#43;QlrFiux8LOXOqULCA9egvoUf2iC4qcgDXU1rb&#43;bUb6/k58cHKm75r6HUwCSrKcg6sSiJv2g=="></script>
+
+
+
+
+    </body>
+</html>

@@ -16,7 +16,7 @@ socials:
     icon: "fa-brands fa-docker"
     url: "https://hub.docker.com/u/reverie89"
 
-intro: "クラウドベースのモバイルおよびウェブソリューションの開発・運用に9年以上携わった、成果重視のプロダクトマネジメント専門家です。アジャイル手法、クラウドアプリケーション、戦略的なステークホルダー管理に精通し、複雑な課題を分析的に解決します。"
+intro: "政府政策とクラウドテクノロジーの橋渡しをする9年以上の経験を持つプロダクトリーダー。現在、国立文化財庁で多機能チーム（UX、サポート、AI）を率い、受賞歴のあるデジタル体験を提供しています。IM8（政府セキュリティコンプライアンス）と調達プロセスをナビゲートし、クラウドネイティブの一般向け製品を立ち上げる専門知識を持っています。"
 
 experience:
   - period: "2023年7月 - 現在"
@@ -25,19 +25,20 @@ experience:
     title: "ゲーミフィケーション＆プロダクトデリバリー マネージャー"
     logo: "national-heritage-board.webp"
     details:
-      - "AIデータプラットフォームプロジェクトのアプリケーションおよびGCC環境の設計を担当しました。"
-      - "大規模なクロスファンクショナルチームを率いて、クラウドプラットフォームのゲーミフィケーションサービスを開発・導入しました。"
-      - "24名のチームと共に、National Museum SingaporeのDiscoインタラクティブポップアップルームを立ち上げ、6,000人以上のユニーク登録と10,000回以上のプレイを達成しました。"
-      - "22名のチームを指揮し、Singapore Night Festival 2022で高い参加率を誇るゲーミフィケーションブースイベントを運営しました。"
-      - "アプリケーション、DevOpsパイプライン、クラウドインフラの設計・運用・保守を監督しました。"
-      - "プロダクトサポートコンサルタントチームを管理し、最適なサービス提供を実現しました。"
+      - "多機能チーム（UX、サポート、外部ベンダー）の4名の直接部下を率い、20名以上の外部ベンダーチームを管理。"
+      - "AI製品ロードマップを定義し、専任のAIプロダクトマネージャーの採用承認とAIデータプラットフォームの展開を実現。"
+      - "大規模な多機能チームを率い、Gamification-as-a-Serviceクラウドプラットフォームソリューションの変革、開発、立ち上げを主導。"
+      - "2026年ミュージアム・ラウンドテーブル旧正月（Lunar New Year）ホンバオキャンペーン向け「Hongbao Hunt」ゲームを共同立ち上げ。"
+      - "24名のチームを共同リードし、ナショナル・ミュージアム・シンガポールのディスコをテーマとしたインタラクティブ・ポップアップ空間のデジタルソリューションの立ち上げを実施。6,000件超のユニーク登録と10,000回以上のプレイ数を達成。"
+      - "22名のチームを率い、Singapore Night Festival 2022向けの高エンゲージメントなインタラクティブ・ゲーミフィケーション型ブースイベントの立ち上げと運営を主導。"
+      - "アプリケーション、DevOpsパイプライン、クラウドインフラの設計、実装、保守を監督。"
   - period: "2020年9月 - 2023年7月"
     location: "sg"
     company: "National Heritage Board"
     title: "プロダクトデリバリー アシスタントマネージャー"
     logo: "national-heritage-board.webp"
     details:
-      - "National Heritage Board (NHB)の19のウェブサイトの運用・保守を担当しました。"
+      - "弊社19のウェブサイトの運用・保守を担当しました。"
       - "2022年・2021年にNHBウェブサイトのデジタルサービス標準の卓越性が認められ、政府全体のデジタルサービス賞を受賞しました。"
       - "博物館やフェスティバルイベント向けのゲーミフィケーション・インセンティブ施策を実施しました。"
       - "プロダクトデリバリーチームにRPAツールを導入しました。"
@@ -85,6 +86,19 @@ experience:
       - "オンプレミス展開用のイントラネットインフラを構築し、信頼性の高いデータバックアップソリューションを実装しました。"
 
 skills:
+  expertise:
+    - "Generative AI integration"
+    - "Product Strategy, Roadmap"
+    - "Cross-functional Team Leadership"
+    - "Stakeholder (Govt), Agile Leadership, Vendor Management"
+    - "Mobile/Web app UX and Development"
+    - "System Process Flow Design"
+    - "Cloud Infrastructure, DevOps Design"
+    - "Gamification, Incentivization"
+  languages:
+    - "English (native)"
+    - "Mandarin Chinese (native)"
+    - "Japanese (fluent, JLPT N1)"
   software:
     - name: "Atlassian Jira"
       icon: "fa-brands fa-jira"
@@ -115,28 +129,11 @@ skills:
       icon: "fa-brands fa-php"
     - name: "Flutter"
       icon: "fa-brands fa-flutter"
-  languages:
-    - "英語（ネイティブ）"
-    - "中国語（ネイティブ）"
-    - "日本語（流暢、JLPT N1）"
-  expertise:
-    - "AIプロンプトエンジニアリング"
-    - "プロダクトマネジメント"
-    - "クロスファンクショナルチームリーダーシップ"
-    - "アジャイル手法（スクラム、ハイブリッド）"
-    - "クラウドインフラ設計"
-    - "CI/CD設計"
-    - "モバイル・ウェブアプリUX・開発"
-    - "システムプロセスフロー設計"
-    - "ステークホルダーマネジメント"
-    - "ゲーミフィケーション"
 
 education:
   - school: "Udacity x Temasek Polytechnic"
     degree: "「ナノ学士」プロダクトマネジメント"
     period: "2023年5月 - 2023年7月"
-    details:
-      - "UdacityとTemasek Polytechnicによるプロダクトマネジメントナノディグリーを修了"
   - school: "Association of Chartered Certified Accountants"
     degree: "アフィリエイト"
     period: "2011年6月 - 2018年1月"
@@ -146,6 +143,9 @@ education:
   - school: "Oxford Brookes University"
     degree: "「学士」応用会計学（優等）"
     period: "2011年6月 - 2013年3月"
+    details:
+      - "地域卒業式での卒業生代表を務めました"
+      - "石油・ガス業界の大企業と競合他社をベンチマークにした財務・ビジネス分析に関する研究とレポートを作成しました"
   - school: "Ngee Ann Polytechnic"
     degree: "「専門士」銀行・金融サービス"
     period: "2006年4月 - 2009年5月"
@@ -155,6 +155,12 @@ education:
       - "様々な学校プロジェクトでチームリーダーを担当"
       - "Societe Generaleでインターンシップを修了"
       - "Merrill Lynchでインターンシップを修了"
+  - school: "Holy Innocents' High School"
+    degree: "GCE 'O' Levels"
+    period: "2002 - 2005"
+    details:
+      - "2004年北東バーチャル遺産コンペティションで1位となり、チームリーダーとしてシンガポール北東部の遺産に関する楽しくインタラクティブな教育ウェブサイトを開発しました。"
+      - "2002年第12回インタースクールマイクロマウスコンペティションに参加し、迷路から最も効率的に脱出するための経路アルゴリズムをロボットにプログラミングしました。"
 
 badges:
   - name: "Professional Scrum Product Owner Level 1"

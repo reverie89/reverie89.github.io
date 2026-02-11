@@ -16,7 +16,7 @@ socials:
     icon: "fa-brands fa-docker"
     url: "https://hub.docker.com/u/reverie89"
 
-intro: "Product Leader with 9+ years of experience bridging government policy and cloud technology. Currently leading a multi-disciplinary squad (UX, Support, AI) at the National Heritage Board to deliver award-winning digital experiences. Expertise in navigating IM8 (government security compliance) and procurement processes to launch cloud-native public-facing products."
+intro: "I, hor, as Product Leader (9+ years) am pro in the 0-to-N launch of AI-driven platforms and gamified digital experiences. Very good at leading cross-functional squads and 20+ member vendor networks. A technical Player-Coach who translates complex Cloud/DevOps infrastructure into scalable, user-centric product strategies wor."
 
 experience:
   - period: "July 2023 - Present"
@@ -25,9 +25,9 @@ experience:
     title: "Manager for Gamification & Product Delivery"
     logo: "national-heritage-board.webp"
     details:
-      - "Lead a cross-functional team of 4 direct reports (UX, Tech Support, PM) and managed external vendor teams of 20+."
-      - "Defined the AI product roadmap resulting in the approval to hire dedicated AI Product Manager and deployment of AI Data Platform."
-      - "Spearheaded large cross-functional teams to transform, develop and launch Gamification-as-a-Service cloud platform solution."
+      - "Lead and mentor a cross-functional team of 4 direct reports (UX, Tech Support, PM) and managed external vendor teams of 20+."
+      - "Lead and provide technical advisory for architecting the AI Data Platform for scalability, safety and extensibility."
+      - "Spearheaded large cross-functional teams to launch Gamification-as-a-Service cloud platform solution from 0 to N, using CI/CD deployment to AWS, and inspired the launch of Walking Trails @ CDC by GovTech's CrowdTask.gov.sg"
       - "Co-launched Hongbao Hunt game for 2026 Museum Roundtable Lunar New Year Hongbao Campaign"
       - "Co-led a team of 24 in the digital solutioning and launch of the National Museum Singapore's Disco interactive pop-up room, acquiring over 6,000 unique signups and exceeding 10,000 plays."
       - "Directed a team of 22 to launch and operate a highly engaging interactive gamified booth event for the Singapore Night Festival 2022."
@@ -38,7 +38,7 @@ experience:
     title: "Assistant Manager for Product Delivery"
     logo: "national-heritage-board.webp"
     details:
-      - "Managed the operational delivery and maintenance of 19 National Heritage Board (NHB) websites."
+      - "Managed the operations and maintenance for 19 National Heritage Board (NHB) websites."
       - "Recognized with the Whole-of-Government Digital Service Awards in 2022 and 2021 for digital service standard excellence for NHB websites."
       - "Implemented gamification, incentivization initiatives for museum and festival events."
       - "Onboarded RPA tool for Product Delivery team."

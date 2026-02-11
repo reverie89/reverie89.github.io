@@ -1,251 +1,182 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>vtsuki.net</title>
-    <link>http://localhost:1313/sg/</link>
-    <description>Recent content on vtsuki.net</description>
-    <generator>Hugo</generator>
-    <language>en-GB</language>
-    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
-    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sg/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2026 MR Hongbao Campaign</title>
-      <link>http://localhost:1313/sg/pastworks/2026-mr-hongbao-campaign/</link>
-      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2026-mr-hongbao-campaign/</guid>
-      <description>&lt;p&gt;This was a partnership with the &lt;a href=&#34;https://www.nhb.gov.sg/what-we-do/our-work/sector-development/museum-roundtable/2026-museum-roundtable-lunar-new-year-hongbao-campaign&#34;&gt;2026 Museum Roundtable (MR) Lunar New Year Hongbao Campaign&lt;/a&gt; to launch a treasure-hunting type of game titled Hongbao Hunt lah! It&amp;rsquo;s a super shiok gamified digital experience for everyone to play at six (6) participating museums and heritage institutions to collect Lunar New Year ang baos one. The event ran for one (1) month from 23 January 2026 to 15 February 2026, very happening timing! Participants log into the web game using their Singpass, scan the artefact by solving a riddle and collect their prize at the designated vending machines located in the museums. Public feedback was very positive and the ang baos at several museums were mostly redeemed by the first weekend - so popular until finished so fast!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>vtsuki.net revamp</title>
-      <link>http://localhost:1313/sg/pastworks/2025-vtsuki-revamp/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2025-vtsuki-revamp/</guid>
-      <description>&lt;p&gt;vtsuki.net revamp use Hugo and AI prompt, now look super modern, got theme switch, mobile friendly, and everything automated. Japanese and Singlish content all AI generate, site host on GitHub Pages, jin satki!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; to build site&lt;/li&gt;&#xA;&lt;li&gt;Use GitHub Copilot AI prompt to make site look nice&lt;/li&gt;&#xA;&lt;li&gt;Got light/dark theme&lt;/li&gt;&#xA;&lt;li&gt;Mobile responsive&lt;/li&gt;&#xA;&lt;li&gt;Theme custom until cannot recognize&lt;/li&gt;&#xA;&lt;li&gt;Japanese and Singlish content all AI generate&lt;/li&gt;&#xA;&lt;li&gt;Host on &lt;a href=&#34;https://github.com/reverie89/reverie89.github.io&#34;&gt;GitHub Pages&lt;/a&gt;, swee bo?&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/sg/about/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hall of Thanks</title>
-      <link>http://localhost:1313/sg/thanks/</link>
-      <pubDate>Mon, 07 Jul 2025 22:37:26 +0800</pubDate>
-      <guid>http://localhost:1313/sg/thanks/</guid>
-      <description>&lt;h1 id=&#34;dedicated-to-thank-my-bffs&#34;&gt;Dedicated to thank my BFFs&lt;/h1&gt;&#xA;&lt;p&gt;Gam xia you guys very much for your support! (:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>IoT hydroponic watering system with ESP32</title>
-      <link>http://localhost:1313/sg/pastworks/2025-iot-hydroponic-watering-system-esp32/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2025-iot-hydroponic-watering-system-esp32/</guid>
-      <description>&lt;p&gt;This project is automated hydroponic watering system using ESP32, smart enough to check water level before mixing nutrients. Use one 12V power supply for all pumps, convert voltage for microcontroller and sensors, very efficient for home hydroponics.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automated watering system, no need manual&lt;/li&gt;&#xA;&lt;li&gt;Check water level before mix nutrients to right concentration&lt;/li&gt;&#xA;&lt;li&gt;Use single 12V power supply for water pump and peristaltic pumps, buck convert to 5V for microcontroller, 3.3V for sensors&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Singapore Night Festival 2024 - Night Walk</title>
-      <link>http://localhost:1313/sg/pastworks/2024-singapore-night-festival-night-walk/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2024-singapore-night-festival-night-walk/</guid>
-      <description>&lt;p&gt;This project make gamified web app for Singapore Night Festival 2024, can check in, redeem freebies. Work with creative and tech vendors, users, stakeholders, finish in short time. App engage participants for 9-day event, a lot of signups and check-ins.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app like Pokemon Go for Night Festival&lt;/li&gt;&#xA;&lt;li&gt;Login &amp;gt; check-in &amp;gt; unlock audio stories &amp;gt; redeem rewards, all in one app&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Docker image for VSCode Tunnel</title>
-      <link>http://localhost:1313/sg/pastworks/2024-docker-image-for-vscode-tunnel/</link>
-      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2024-docker-image-for-vscode-tunnel/</guid>
-      <description>&lt;p&gt;I make Docker image for VSCode Tunnel, can use Docker-in-Docker also. Got dev container support, image put on Docker Hub. GitHub got auto build, so update very easy. This project make remote dev workflow more shiok.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Run a tunnel for VSCode using Docker&lt;/li&gt;&#xA;&lt;li&gt;Supports Docker-in-Docker, which means support for dev containers&lt;/li&gt;&#xA;&lt;li&gt;Docker image published on &lt;a href=&#34;https://hub.docker.com/r/reverie89/vscode-tunnel&#34;&gt;Docker Hub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Published automated build on &lt;a href=&#34;https://github.com/reverie89/vscode-tunnel&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>NHB gamification reporting web app</title>
-      <link>http://localhost:1313/sg/pastworks/2024-nhb-gamification-reporting-web-app/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2024-nhb-gamification-reporting-web-app/</guid>
-      <description>&lt;p&gt;This project is mobile-friendly web app for NHB, generate reports from AWS DynamoDB data. Got secure email decryption using NodeJS and AWS Secrets Manager, use Python libraries for data processing. MVC architecture, Docker deploy, easy to scale and maintain.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app generate reports from AWS DynamoDB data&lt;/li&gt;&#xA;&lt;li&gt;Decrypt email using encryption key (AWS Secrets Manager), IV, salt, NodeJS vendor code&lt;/li&gt;&#xA;&lt;li&gt;Use Python libraries: gunicorn, flask, pandas, cryptography&lt;/li&gt;&#xA;&lt;li&gt;MVC design, Docker/Python/Bootstrap stack&lt;/li&gt;&#xA;&lt;li&gt;Mobile responsive, can use on phone&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Heritage Activation Nodes @ Katong Joo Chiat, Jalan Jalan</title>
-      <link>http://localhost:1313/sg/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</guid>
-      <description>&lt;p&gt;Gamified web app for Heritage Activation Nodes at Katong Joo Chiat, Jalan Jalan, can check in, unlock stories, redeem rewards. Work with more than 15 people, finish in short time.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app like Pokemon Go for Heritage Activation Nodes, Jalan Jalan&lt;/li&gt;&#xA;&lt;li&gt;Login &amp;gt; check-in &amp;gt; unlock stories &amp;gt; redeem rewards, everything inside&lt;/li&gt;&#xA;&lt;li&gt;Work with more than 15 people over 2.5 months&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Image Processor on the web</title>
-      <link>http://localhost:1313/sg/pastworks/2024-image-processor-web/</link>
-      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2024-image-processor-web/</guid>
-      <description>&lt;p&gt;This web image processor let you upload jpg, png, gif, webp or zip, process everything online. Python backend do watermark, return file to you, never store on server. Got Docker, public can use and contribute.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upload jpg, png, gif, webp or zip files, all can&lt;/li&gt;&#xA;&lt;li&gt;Python backend process image, return processed file, no save on server&lt;/li&gt;&#xA;&lt;li&gt;Can add image or text watermark, use your own font or mine, adjust opacity and position&lt;/li&gt;&#xA;&lt;li&gt;Code with help from ChatGPT 3.5&lt;/li&gt;&#xA;&lt;li&gt;Packaged with Docker, use &lt;a href=&#34;https://img.vtsuki.net&#34;&gt;here&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Docker image on &lt;a href=&#34;https://hub.docker.com/r/reverie89/image-processor&#34;&gt;Docker Hub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Code on &lt;a href=&#34;https://github.com/reverie89/image-processor&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Fix video preview duration lengths on Immich</title>
-      <link>http://localhost:1313/sg/pastworks/2024-fix-immich-video-preview-duration/</link>
-      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2024-fix-immich-video-preview-duration/</guid>
-      <description>&lt;p&gt;This project fix bug in Immich app, video preview duration not correct. Use AI and Python script to update sidecar files with correct duration, fix hundreds of records.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Immich is self-hosted photo and video backup app&lt;/li&gt;&#xA;&lt;li&gt;Got bug, video preview duration not display properly&lt;/li&gt;&#xA;&lt;li&gt;Reported in v1.91.4, still got problem in v1.93.3&lt;/li&gt;&#xA;&lt;li&gt;Only affect small number of users, but actually easy to fix, just tedious&lt;/li&gt;&#xA;&lt;li&gt;Use CodeGPT Plus to write Python script to fix&lt;/li&gt;&#xA;&lt;li&gt;Script go through folders, use ffprobe to get duration, update sidecar files (*.xmp)&lt;/li&gt;&#xA;&lt;li&gt;Tested and updated 776 records, all ok&lt;/li&gt;&#xA;&lt;li&gt;Code on &lt;a href=&#34;https://github.com/reverie89/python-immich-fix-video-preview-time&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Singapore Night Festival 2023 - Night Walk</title>
-      <link>http://localhost:1313/sg/pastworks/2023-singapore-night-festival-night-walk/</link>
-      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2023-singapore-night-festival-night-walk/</guid>
-      <description>&lt;p&gt;This project make gamified web app for Singapore Night Festival 2023, got check-in, audio stories, and rewards. Work with many people, showcase at big events, user engagement and publicity very high.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web app like Pokemon Go for Night Festival&lt;/li&gt;&#xA;&lt;li&gt;Login &amp;gt; check-in &amp;gt; unlock audio stories &amp;gt; redeem rewards, all in one app&lt;/li&gt;&#xA;&lt;li&gt;Work with 52 people over 2.5 months, got creative, dev, AWS, API, monitoring, users, event, stakeholders, all join in&lt;/li&gt;&#xA;&lt;li&gt;2,700 user signups, 8,000 check-ins in 9 days, very happening&lt;/li&gt;&#xA;&lt;li&gt;Also get creative services for publicity (Facebook, Instagram, TikTok)&lt;/li&gt;&#xA;&lt;li&gt;App showcase at Singapore Geospatial Festival 2023&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Watermark images with Python via Docker</title>
-      <link>http://localhost:1313/sg/pastworks/2023-watermark-images-python-docker/</link>
-      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2023-watermark-images-python-docker/</guid>
-      <description>&lt;p&gt;This project got Python program to batch watermark images, run inside Docker container, very portable. Support PNG, JPG, WEBP, can get from GitHub and Docker Hub, easy to use.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python program overlay text at 45-degree angle (watermark) on image files (png, jpg, webp)&lt;/li&gt;&#xA;&lt;li&gt;Batch process files from /input, output to /output, all auto one&lt;/li&gt;&#xA;&lt;li&gt;Wrap program in Docker container, can run anywhere&lt;/li&gt;&#xA;&lt;li&gt;Code on &lt;a href=&#34;https://github.com/reverie89/docker-python-watermark&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Container image on &lt;a href=&#34;https://hub.docker.com/r/reverie89/python-watermark&#34;&gt;Docker Hub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Use Python 3.11, Pillow 9.0, Docker 23&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Singapore Night Festival 2022 - Crossing To The Past (Minecraft)</title>
-      <link>http://localhost:1313/sg/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</link>
-      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</guid>
-      <description>&lt;p&gt;This project use Minecraft to gamify Singapore Night Festival, recreate Armenian Street in virtual world. Players register Heritage ID, get exclusive rewards, game world design together with coding school and internal team.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Minecraft as pilot digital initiative to gamify Singapore Night Festival&lt;/li&gt;&#xA;&lt;li&gt;Recreate Armenian Street in Minecraft, can walk around and explore&lt;/li&gt;&#xA;&lt;li&gt;Players sign up Heritage ID to play, get special rewards&lt;/li&gt;&#xA;&lt;li&gt;Work with coding school to design game world, art content collaborate with internal team&lt;/li&gt;&#xA;&lt;li&gt;Players get festival exclusive keychain for joining&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>RSVP check-in web app</title>
-      <link>http://localhost:1313/sg/pastworks/2020-rsvp-check-in/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2020-rsvp-check-in/</guid>
-      <description>&lt;p&gt;Simple Python website for guest RSVP check-in, got CSV import/export and dashboard to track attendance. Make for event management, finish in two weeks chop chop.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Simple website with guest check-in system, no need headache&lt;/li&gt;&#xA;&lt;li&gt;Made in about 2 weeks using Python, fast and easy&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Flutter mobile app</title>
-      <link>http://localhost:1313/sg/pastworks/2020-flutter-mobile-app/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2020-flutter-mobile-app/</guid>
-      <description>&lt;p&gt;This project learn Flutter and build front-end mobile app for product traceability and service installation. Got demo features, can extend to connect NoSQL DB like Firebase.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Manage and oversee corporate mobile app for product traceability and service installation&lt;/li&gt;&#xA;&lt;li&gt;Learn Flutter v1.17 from YouTube, build my own version, not same as company app (company use React Native, mine is Dart)&lt;/li&gt;&#xA;&lt;li&gt;Only code front-end, if want can connect to NoSQL DB like Firebase, just change code a bit&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Docker image for Caddy (&gt;300k pulls!)</title>
-      <link>http://localhost:1313/sg/pastworks/2020-docker-image-for-caddy/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2020-docker-image-for-caddy/</guid>
-      <description>&lt;p&gt;This project customize Docker image for Caddy web server, add authentication and DNS plugins, also disable telemetry. Make web server setup easy, got over 300,000 pulls wor.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Caddy is a lightweight open source web server, got auto HTTPS, and is written in Go&lt;/li&gt;&#xA;&lt;li&gt;I use its builder to add reauth (authentication) and cloudflare (DNS provider) plugins, and then hor disable telemetry&lt;/li&gt;&#xA;&lt;li&gt;Docker container available on Docker Hub so anyone can use. Good right?&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>vtsuki.net migration to Docker setup</title>
-      <link>http://localhost:1313/sg/pastworks/2019-vtsuki-net-migration-to-docker-setup/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2019-vtsuki-net-migration-to-docker-setup/</guid>
-      <description>&lt;p&gt;This project migrate vtsuki.net to Docker, split services across VPS, use HTTPS and Cloudflare for security. Optimize Storage and memory lah. Internal services all run inside Docker network so it only expose what I need. Add personal profile to site, make web services more reliable, secure, and easier to maintain.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add one more VPS, one for web server, one for Docker play play&lt;/li&gt;&#xA;&lt;li&gt;Mount extra storage to VPS #2&lt;/li&gt;&#xA;&lt;li&gt;Create swapfile for more memory, no need pay for extra RAM, save cost&lt;/li&gt;&#xA;&lt;li&gt;All web services use HTTPS with LetsEncrypt, auto renew, DNS go through Cloudflare&lt;/li&gt;&#xA;&lt;li&gt;Services not meant for internet make them run within Docker network only, use Caddy to reverse proxy everything&lt;/li&gt;&#xA;&lt;li&gt;Created a personalised webpage on vtsuki.net&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>GTA-V portblock</title>
-      <link>http://localhost:1313/sg/pastworks/2018-gtav-portblock/</link>
-      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2018-gtav-portblock/</guid>
-      <description>&lt;p&gt;This project make batch file to manage Windows Firewall for GTA-V, can block ports and whitelist IPv4 addresses, so can play private online session without modding the game.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create bat file to make it easy to block ports and whitelist IPv4 for GTA-V on PC&lt;/li&gt;&#xA;&lt;li&gt;CEO missions and Biker business need online session, but sometimes got cheaters, want to play peacefully&lt;/li&gt;&#xA;&lt;li&gt;No need to mod the game, just block some outbound traffic, only allow certain IPv4 (like your friend) to join your private session&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/reverie89/gtav-portblock&#34;&gt;GitHub repo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>JET Opinion Exchange Conference</title>
-      <link>http://localhost:1313/sg/pastworks/2015-jet-opinion-exchange-conference/</link>
-      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2015-jet-opinion-exchange-conference/</guid>
-      <description>&lt;p&gt;This conference is for JET people to share experience and suggest improvements. I go as Singapore rep, join the discussion, talk about important issues and what can do better for the community.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attend CLAIR conference, meet other JETs&lt;/li&gt;&#xA;&lt;li&gt;Speak up about problems JET participants face, represent Singapore side&lt;/li&gt;&#xA;&lt;li&gt;Discuss how to improve and what action to take, all for the community&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>JET Japanese Tea Ceremony Experiential Class</title>
-      <link>http://localhost:1313/sg/pastworks/2015-jet-tea/</link>
-      <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2015-jet-tea/</guid>
-      <description>&lt;p&gt;This class purpose is to introduce Japanese Tea Ceremony to foreign residents, also teach Japanese residents some English words for their Japanese tea ceremony, so that foreign residents can come appreciate Japanese culture.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduce Japanese Tea Ceremony to foreign residents in Miyazaki City&lt;/li&gt;&#xA;&lt;li&gt;Teach Japanese residents in 3 sessions some basic English words about Japanese tea ceremony&lt;/li&gt;&#xA;&lt;li&gt;At the Tea Ceremony, the Japanese students showed foreign residents how to appreciate tea ceremony, all enjoy together&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>JET Introduce Singapore</title>
-      <link>http://localhost:1313/sg/pastworks/2015-jet-introduce-singapore/</link>
-      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2015-jet-introduce-singapore/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;Introduce Singapore and its culture to Takaoka Town, Miyazaki Prefecture&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This project go and present Singapore culture to Takaoka Town people, let them know more about us, promote cross-cultural understanding, make everyone happy.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JET Singapore Chicken Rice Cooking Class</title>
-      <link>http://localhost:1313/sg/pastworks/2015-jet-cooking/</link>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2015-jet-cooking/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;Cooking class for Miyazaki City residents, show them how to make Singapore&amp;rsquo;s famous food&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hold cooking class to teach Miyazaki people how to make Singapore Chicken Rice, exchange cultures and let everyone try shiok foods.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JET Christmas Market Event</title>
-      <link>http://localhost:1313/sg/pastworks/2014-jet-christmas-market-event/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2014-jet-christmas-market-event/</guid>
-      <description>&lt;p&gt;This event bring all the foreign residents in Miyazaki together, volunteer and celebrate at Christmas Market, got community spirit and cultural exchange, very happening.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Event actually started by my predecessor not me, I just continue the tradition&lt;/li&gt;&#xA;&lt;li&gt;Recruit foreign residents to be Santas and Santarinas, everyone join in the fun&lt;/li&gt;&#xA;&lt;li&gt;Help buy materials like non-bake cake ingredients for the event, all settle&lt;/li&gt;&#xA;&lt;li&gt;I also join as foreign resident, enjoy the event together&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>WordPress website for local business</title>
-      <link>http://localhost:1313/sg/pastworks/2014-wordpress-website-local-business/</link>
-      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2014-wordpress-website-local-business/</guid>
-      <description>&lt;p&gt;Help local business make WordPress website, customize everything, also setup webhosting and email, make their online presence more solid.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Customize WordPress 3.7.x theme for local SME, make it look nice nice&lt;/li&gt;&#xA;&lt;li&gt;Also help client setup webhosting and email, everything settle for them&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Contribute to GitHub repo</title>
-      <link>http://localhost:1313/sg/pastworks/2014-contribute-github-repo/</link>
-      <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2014-contribute-github-repo/</guid>
-      <description>&lt;p&gt;I go fix bug for LinuxGSM, help GameServerManagers lah. Now server more steady, no anyhow crash. My contribution got record in the commit link. This one show I know how to work with open source people.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Did a bugfix for &lt;a href=&#34;https://github.com/reverie89/linuxgameservers/commit/afb3f89d8ac5fc1f02458798eaeea876491484bb&#34;&gt;GameServerManagers/LinuxGSM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Game forum</title>
-      <link>http://localhost:1313/sg/pastworks/2013-game-forum/</link>
-      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2013-game-forum/</guid>
-      <description>&lt;p&gt;This project try to setup game forum and all the backend, but stop halfway because not worth the effort.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Forum for games like Natural Selection 2, Team Fortress 2, even plan to host private game server, but too busy, never maintain, website also not much people visit&lt;/li&gt;&#xA;&lt;li&gt;Buy domain name, host forum on my VPS, connect domain to Outlook email, do all the server admin and firewall, everything ownself settle&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Information Management System web app</title>
-      <link>http://localhost:1313/sg/pastworks/2011-information-management-system-web-app/</link>
-      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2011-information-management-system-web-app/</guid>
-      <description>&lt;p&gt;Web app for digital record keeping, all use PHP and MySQL, got user profiles, locations, inventory, daily backup, and admin can see everything on map.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use WAMP stack to digitalize record keeping, setup everything myself&lt;/li&gt;&#xA;&lt;li&gt;Gather user requirements on the job, learn as I go&lt;/li&gt;&#xA;&lt;li&gt;Full SDLC in 9 months, use PHP 5, MySQL 5, jQuery 1.4, quite solid&lt;/li&gt;&#xA;&lt;li&gt;Also setup servers and network for system go-live, everything settle&lt;/li&gt;&#xA;&lt;li&gt;Got user profile, location, activity, inventory, all inside&lt;/li&gt;&#xA;&lt;li&gt;Admin can see user location and status on map, very clear one&lt;/li&gt;&#xA;&lt;li&gt;Database backup every day, no worry&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Blogshop</title>
-      <link>http://localhost:1313/sg/pastworks/2009-blogshop/</link>
-      <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2009-blogshop/</guid>
-      <description>&lt;p&gt;Freelance project to build blogshop, custom design, got admin portal and order management, all use PHP and MySQL.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use PHP 5/MySQL5 stack, client give the design inspired by blogshops, I just follow&lt;/li&gt;&#xA;&lt;li&gt;Slice PSD to make the website&lt;/li&gt;&#xA;&lt;li&gt;Also made a basic Admin portal so client can go in edit content and check mailing list, everything easy&lt;/li&gt;&#xA;&lt;li&gt;Ordering Form work like Contact Form, will email client about order info and they can follow up over email&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>FundzForFun</title>
-      <link>http://localhost:1313/sg/pastworks/2008-fundzforfun/</link>
-      <pubDate>Mon, 17 Mar 2008 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2008-fundzforfun/</guid>
-      <description>&lt;p&gt;School project to promote financial literacy, make it fun with game website, got instructions and presentation also.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;School project for Corporate Finance and Advisory Services module, chim but fun so still ok&lt;/li&gt;&#xA;&lt;li&gt;Main aim to help people study more about money literacy through games&lt;/li&gt;&#xA;&lt;li&gt;Present the game using website so that everyone can see and play&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fundzforfun.vtsuki.net/&#34;&gt;View website here&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>ZenochFashion zencart customization, setup, hosting</title>
-      <link>http://localhost:1313/sg/pastworks/2007-zenochfashion/</link>
-      <pubDate>Wed, 21 Feb 2007 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2007-zenochfashion/</guid>
-      <description>&lt;p&gt;This one freelance project, help fashion shop build and customize e-commerce website using ZenCart, also settle hosting and domain for them.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First time do freelance website project&lt;/li&gt;&#xA;&lt;li&gt;Customize and setup ZenCart for fashion retailer, make the shop look nice nice&lt;/li&gt;&#xA;&lt;li&gt;That time no payment gateway yet, just browse and see only&lt;/li&gt;&#xA;&lt;li&gt;Also help client setup web hosting and domain, everything settle for them&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Launch of vtsuki.net</title>
-      <link>http://localhost:1313/sg/pastworks/2006-launch-vtsuki-net/</link>
-      <pubDate>Sat, 26 Aug 2006 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2006-launch-vtsuki-net/</guid>
-      <description>&lt;p&gt;This one is my hobby project, launch vtsuki.net with Flash animation, got interactive features and portfolio page, quite shiok.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Try to make vtsuki.net website using old school Macromedia Flash and ActionScript&lt;/li&gt;&#xA;&lt;li&gt;Got animated loading bar when open index to look pro&lt;/li&gt;&#xA;&lt;li&gt;Bottom is real-time clock, opening got background sound (about 4 seconds), top menu all clickable links, can navigate around one&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Evo-ViRz.net experimental website</title>
-      <link>http://localhost:1313/sg/pastworks/2005-evovirz-experimental-website/</link>
-      <pubDate>Thu, 09 Jun 2005 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2005-evovirz-experimental-website/</guid>
-      <description>&lt;p&gt;This one is my hobby project, just wanna try PHP and web design, play around with custom images and use table for layout, old school style lah.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First time try PHP coding, blur like sotong but learn fast. Use GIMP to make the images, not bad hor. Layout all use table tag, last time like that one.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>North East Virtual Heritage Trail</title>
-      <link>http://localhost:1313/sg/pastworks/2004-north-east-virtual-heritage-trail/</link>
-      <pubDate>Sat, 27 Mar 2004 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sg/pastworks/2004-north-east-virtual-heritage-trail/</guid>
-      <description>&lt;p&gt;Wah, this one is inter-school competition project to design and make the North East Virtual Heritage Trail website, got interactive maps, gallery, quiz, and all the happening stuff. In the end, we kena 1st runner up, not bad lah!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Got chance to join Singapore North East Virtual Heritage Trail inter-school website competition, Temasek Poly and North East CDC organise one sia&lt;/li&gt;&#xA;&lt;li&gt;I do the website design and development, my team do the content, teamwork steady lah&lt;/li&gt;&#xA;&lt;li&gt;Win 1st runner up, heng ah!&lt;/li&gt;&#xA;&lt;li&gt;Use HTML4, JS, old school but still can&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vtsuki.net</title><link>https://reverie89.github.io/sg/</link><description>Recent content on vtsuki.net</description><generator>Hugo</generator><language>en-GB</language><copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://reverie89.github.io/sg/index.xml" rel="self" type="application/rss+xml"/><item><title>2026 MR Hongbao Campaign</title><link>https://reverie89.github.io/sg/pastworks/2026-mr-hongbao-campaign/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2026-mr-hongbao-campaign/</guid><description>&lt;p>This was a partnership with the &lt;a href="https://www.nhb.gov.sg/what-we-do/our-work/sector-development/museum-roundtable/2026-museum-roundtable-lunar-new-year-hongbao-campaign">2026 Museum Roundtable (MR) Lunar New Year Hongbao Campaign&lt;/a> to launch a treasure-hunting type of game titled Hongbao Hunt lah! It&amp;rsquo;s a super shiok gamified digital experience for everyone to play at six (6) participating museums and heritage institutions to collect Lunar New Year ang baos one. The event ran for one (1) month from 23 January 2026 to 15 February 2026, very happening timing! Participants log into the web game using their Singpass, scan the artefact by solving a riddle and collect their prize at the designated vending machines located in the museums. Public feedback was very positive and the ang baos at several museums were mostly redeemed by the first weekend - so popular until finished so fast!&lt;/p></description></item><item><title>vtsuki.net revamp</title><link>https://reverie89.github.io/sg/pastworks/2025-vtsuki-revamp/</link><pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2025-vtsuki-revamp/</guid><description>&lt;p>vtsuki.net revamp use Hugo and AI prompt, now look super modern, got theme switch, mobile friendly, and everything automated. Japanese and Singlish content all AI generate, site host on GitHub Pages, jin satki!&lt;/p>
+&lt;ul>
+&lt;li>Use &lt;a href="https://gohugo.io">Hugo&lt;/a> to build site&lt;/li>
+&lt;li>Use GitHub Copilot AI prompt to make site look nice&lt;/li>
+&lt;li>Got light/dark theme&lt;/li>
+&lt;li>Mobile responsive&lt;/li>
+&lt;li>Theme custom until cannot recognize&lt;/li>
+&lt;li>Japanese and Singlish content all AI generate&lt;/li>
+&lt;li>Host on &lt;a href="https://github.com/reverie89/reverie89.github.io">GitHub Pages&lt;/a>, swee bo?&lt;/li>
+&lt;/ul></description></item><item><title>About Me</title><link>https://reverie89.github.io/sg/about/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/about/</guid><description/></item><item><title>Hall of Thanks</title><link>https://reverie89.github.io/sg/thanks/</link><pubDate>Mon, 07 Jul 2025 22:37:26 +0800</pubDate><guid>https://reverie89.github.io/sg/thanks/</guid><description>&lt;h1 id="dedicated-to-thank-my-bffs">Dedicated to thank my BFFs&lt;/h1>
+&lt;p>Gam xia you guys very much for your support! (:&lt;/p></description></item><item><title>IoT hydroponic watering system with ESP32</title><link>https://reverie89.github.io/sg/pastworks/2025-iot-hydroponic-watering-system-esp32/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2025-iot-hydroponic-watering-system-esp32/</guid><description>&lt;p>This project is automated hydroponic watering system using ESP32, smart enough to check water level before mixing nutrients. Use one 12V power supply for all pumps, convert voltage for microcontroller and sensors, very efficient for home hydroponics.&lt;/p>
+&lt;ul>
+&lt;li>Automated watering system, no need manual&lt;/li>
+&lt;li>Check water level before mix nutrients to right concentration&lt;/li>
+&lt;li>Use single 12V power supply for water pump and peristaltic pumps, buck convert to 5V for microcontroller, 3.3V for sensors&lt;/li>
+&lt;/ul></description></item><item><title>Singapore Night Festival 2024 - Night Walk</title><link>https://reverie89.github.io/sg/pastworks/2024-singapore-night-festival-night-walk/</link><pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2024-singapore-night-festival-night-walk/</guid><description>&lt;p>This project make gamified web app for Singapore Night Festival 2024, can check in, redeem freebies. Work with creative and tech vendors, users, stakeholders, finish in short time. App engage participants for 9-day event, a lot of signups and check-ins.&lt;/p>
+&lt;ul>
+&lt;li>Web app like Pokemon Go for Night Festival&lt;/li>
+&lt;li>Login &amp;gt; check-in &amp;gt; unlock audio stories &amp;gt; redeem rewards, all in one app&lt;/li>
+&lt;/ul></description></item><item><title>Docker image for VSCode Tunnel</title><link>https://reverie89.github.io/sg/pastworks/2024-docker-image-for-vscode-tunnel/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2024-docker-image-for-vscode-tunnel/</guid><description>&lt;p>I make Docker image for VSCode Tunnel, can use Docker-in-Docker also. Got dev container support, image put on Docker Hub. GitHub got auto build, so update very easy. This project make remote dev workflow more shiok.&lt;/p>
+&lt;ul>
+&lt;li>Run a tunnel for VSCode using Docker&lt;/li>
+&lt;li>Supports Docker-in-Docker, which means support for dev containers&lt;/li>
+&lt;li>Docker image published on &lt;a href="https://hub.docker.com/r/reverie89/vscode-tunnel">Docker Hub&lt;/a>&lt;/li>
+&lt;li>Published automated build on &lt;a href="https://github.com/reverie89/vscode-tunnel">GitHub&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>NHB gamification reporting web app</title><link>https://reverie89.github.io/sg/pastworks/2024-nhb-gamification-reporting-web-app/</link><pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2024-nhb-gamification-reporting-web-app/</guid><description>&lt;p>This project is mobile-friendly web app for NHB, generate reports from AWS DynamoDB data. Got secure email decryption using NodeJS and AWS Secrets Manager, use Python libraries for data processing. MVC architecture, Docker deploy, easy to scale and maintain.&lt;/p>
+&lt;ul>
+&lt;li>Web app generate reports from AWS DynamoDB data&lt;/li>
+&lt;li>Decrypt email using encryption key (AWS Secrets Manager), IV, salt, NodeJS vendor code&lt;/li>
+&lt;li>Use Python libraries: gunicorn, flask, pandas, cryptography&lt;/li>
+&lt;li>MVC design, Docker/Python/Bootstrap stack&lt;/li>
+&lt;li>Mobile responsive, can use on phone&lt;/li>
+&lt;/ul></description></item><item><title>Heritage Activation Nodes @ Katong Joo Chiat, Jalan Jalan</title><link>https://reverie89.github.io/sg/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</guid><description>&lt;p>Gamified web app for Heritage Activation Nodes at Katong Joo Chiat, Jalan Jalan, can check in, unlock stories, redeem rewards. Work with more than 15 people, finish in short time.&lt;/p>
+&lt;ul>
+&lt;li>Web app like Pokemon Go for Heritage Activation Nodes, Jalan Jalan&lt;/li>
+&lt;li>Login &amp;gt; check-in &amp;gt; unlock stories &amp;gt; redeem rewards, everything inside&lt;/li>
+&lt;li>Work with more than 15 people over 2.5 months&lt;/li>
+&lt;/ul></description></item><item><title>Image Processor on the web</title><link>https://reverie89.github.io/sg/pastworks/2024-image-processor-web/</link><pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2024-image-processor-web/</guid><description>&lt;p>This web image processor let you upload jpg, png, gif, webp or zip, process everything online. Python backend do watermark, return file to you, never store on server. Got Docker, public can use and contribute.&lt;/p>
+&lt;ul>
+&lt;li>Upload jpg, png, gif, webp or zip files, all can&lt;/li>
+&lt;li>Python backend process image, return processed file, no save on server&lt;/li>
+&lt;li>Can add image or text watermark, use your own font or mine, adjust opacity and position&lt;/li>
+&lt;li>Code with help from ChatGPT 3.5&lt;/li>
+&lt;li>Packaged with Docker, use &lt;a href="https://img.vtsuki.net">here&lt;/a>&lt;/li>
+&lt;li>Docker image on &lt;a href="https://hub.docker.com/r/reverie89/image-processor">Docker Hub&lt;/a>&lt;/li>
+&lt;li>Code on &lt;a href="https://github.com/reverie89/image-processor">GitHub&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Fix video preview duration lengths on Immich</title><link>https://reverie89.github.io/sg/pastworks/2024-fix-immich-video-preview-duration/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2024-fix-immich-video-preview-duration/</guid><description>&lt;p>This project fix bug in Immich app, video preview duration not correct. Use AI and Python script to update sidecar files with correct duration, fix hundreds of records.&lt;/p>
+&lt;ul>
+&lt;li>Immich is self-hosted photo and video backup app&lt;/li>
+&lt;li>Got bug, video preview duration not display properly&lt;/li>
+&lt;li>Reported in v1.91.4, still got problem in v1.93.3&lt;/li>
+&lt;li>Only affect small number of users, but actually easy to fix, just tedious&lt;/li>
+&lt;li>Use CodeGPT Plus to write Python script to fix&lt;/li>
+&lt;li>Script go through folders, use ffprobe to get duration, update sidecar files (*.xmp)&lt;/li>
+&lt;li>Tested and updated 776 records, all ok&lt;/li>
+&lt;li>Code on &lt;a href="https://github.com/reverie89/python-immich-fix-video-preview-time">GitHub&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Singapore Night Festival 2023 - Night Walk</title><link>https://reverie89.github.io/sg/pastworks/2023-singapore-night-festival-night-walk/</link><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2023-singapore-night-festival-night-walk/</guid><description>&lt;p>This project make gamified web app for Singapore Night Festival 2023, got check-in, audio stories, and rewards. Work with many people, showcase at big events, user engagement and publicity very high.&lt;/p>
+&lt;ul>
+&lt;li>Web app like Pokemon Go for Night Festival&lt;/li>
+&lt;li>Login &amp;gt; check-in &amp;gt; unlock audio stories &amp;gt; redeem rewards, all in one app&lt;/li>
+&lt;li>Work with 52 people over 2.5 months, got creative, dev, AWS, API, monitoring, users, event, stakeholders, all join in&lt;/li>
+&lt;li>2,700 user signups, 8,000 check-ins in 9 days, very happening&lt;/li>
+&lt;li>Also get creative services for publicity (Facebook, Instagram, TikTok)&lt;/li>
+&lt;li>App showcase at Singapore Geospatial Festival 2023&lt;/li>
+&lt;/ul></description></item><item><title>Watermark images with Python via Docker</title><link>https://reverie89.github.io/sg/pastworks/2023-watermark-images-python-docker/</link><pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2023-watermark-images-python-docker/</guid><description>&lt;p>This project got Python program to batch watermark images, run inside Docker container, very portable. Support PNG, JPG, WEBP, can get from GitHub and Docker Hub, easy to use.&lt;/p>
+&lt;ul>
+&lt;li>Python program overlay text at 45-degree angle (watermark) on image files (png, jpg, webp)&lt;/li>
+&lt;li>Batch process files from /input, output to /output, all auto one&lt;/li>
+&lt;li>Wrap program in Docker container, can run anywhere&lt;/li>
+&lt;li>Code on &lt;a href="https://github.com/reverie89/docker-python-watermark">GitHub&lt;/a>&lt;/li>
+&lt;li>Container image on &lt;a href="https://hub.docker.com/r/reverie89/python-watermark">Docker Hub&lt;/a>&lt;/li>
+&lt;li>Use Python 3.11, Pillow 9.0, Docker 23&lt;/li>
+&lt;/ul></description></item><item><title>Singapore Night Festival 2022 - Crossing To The Past (Minecraft)</title><link>https://reverie89.github.io/sg/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</link><pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</guid><description>&lt;p>This project use Minecraft to gamify Singapore Night Festival, recreate Armenian Street in virtual world. Players register Heritage ID, get exclusive rewards, game world design together with coding school and internal team.&lt;/p>
+&lt;ul>
+&lt;li>Use Minecraft as pilot digital initiative to gamify Singapore Night Festival&lt;/li>
+&lt;li>Recreate Armenian Street in Minecraft, can walk around and explore&lt;/li>
+&lt;li>Players sign up Heritage ID to play, get special rewards&lt;/li>
+&lt;li>Work with coding school to design game world, art content collaborate with internal team&lt;/li>
+&lt;li>Players get festival exclusive keychain for joining&lt;/li>
+&lt;/ul></description></item><item><title>RSVP check-in web app</title><link>https://reverie89.github.io/sg/pastworks/2020-rsvp-check-in/</link><pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2020-rsvp-check-in/</guid><description>&lt;p>Simple Python website for guest RSVP check-in, got CSV import/export and dashboard to track attendance. Make for event management, finish in two weeks chop chop.&lt;/p>
+&lt;ul>
+&lt;li>Simple website with guest check-in system, no need headache&lt;/li>
+&lt;li>Made in about 2 weeks using Python, fast and easy&lt;/li>
+&lt;/ul></description></item><item><title>Flutter mobile app</title><link>https://reverie89.github.io/sg/pastworks/2020-flutter-mobile-app/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2020-flutter-mobile-app/</guid><description>&lt;p>This project learn Flutter and build front-end mobile app for product traceability and service installation. Got demo features, can extend to connect NoSQL DB like Firebase.&lt;/p>
+&lt;ul>
+&lt;li>Manage and oversee corporate mobile app for product traceability and service installation&lt;/li>
+&lt;li>Learn Flutter v1.17 from YouTube, build my own version, not same as company app (company use React Native, mine is Dart)&lt;/li>
+&lt;li>Only code front-end, if want can connect to NoSQL DB like Firebase, just change code a bit&lt;/li>
+&lt;/ul></description></item><item><title>Docker image for Caddy (>300k pulls!)</title><link>https://reverie89.github.io/sg/pastworks/2020-docker-image-for-caddy/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2020-docker-image-for-caddy/</guid><description>&lt;p>This project customize Docker image for Caddy web server, add authentication and DNS plugins, also disable telemetry. Make web server setup easy, got over 300,000 pulls wor.&lt;/p>
+&lt;ul>
+&lt;li>Caddy is a lightweight open source web server, got auto HTTPS, and is written in Go&lt;/li>
+&lt;li>I use its builder to add reauth (authentication) and cloudflare (DNS provider) plugins, and then hor disable telemetry&lt;/li>
+&lt;li>Docker container available on Docker Hub so anyone can use. Good right?&lt;/li>
+&lt;/ul></description></item><item><title>vtsuki.net migration to Docker setup</title><link>https://reverie89.github.io/sg/pastworks/2019-vtsuki-net-migration-to-docker-setup/</link><pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2019-vtsuki-net-migration-to-docker-setup/</guid><description>&lt;p>This project migrate vtsuki.net to Docker, split services across VPS, use HTTPS and Cloudflare for security. Optimize Storage and memory lah. Internal services all run inside Docker network so it only expose what I need. Add personal profile to site, make web services more reliable, secure, and easier to maintain.&lt;/p>
+&lt;ul>
+&lt;li>Add one more VPS, one for web server, one for Docker play play&lt;/li>
+&lt;li>Mount extra storage to VPS #2&lt;/li>
+&lt;li>Create swapfile for more memory, no need pay for extra RAM, save cost&lt;/li>
+&lt;li>All web services use HTTPS with LetsEncrypt, auto renew, DNS go through Cloudflare&lt;/li>
+&lt;li>Services not meant for internet make them run within Docker network only, use Caddy to reverse proxy everything&lt;/li>
+&lt;li>Created a personalised webpage on vtsuki.net&lt;/li>
+&lt;/ul></description></item><item><title>GTA-V portblock</title><link>https://reverie89.github.io/sg/pastworks/2018-gtav-portblock/</link><pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2018-gtav-portblock/</guid><description>&lt;p>This project make batch file to manage Windows Firewall for GTA-V, can block ports and whitelist IPv4 addresses, so can play private online session without modding the game.&lt;/p>
+&lt;ul>
+&lt;li>Create bat file to make it easy to block ports and whitelist IPv4 for GTA-V on PC&lt;/li>
+&lt;li>CEO missions and Biker business need online session, but sometimes got cheaters, want to play peacefully&lt;/li>
+&lt;li>No need to mod the game, just block some outbound traffic, only allow certain IPv4 (like your friend) to join your private session&lt;/li>
+&lt;li>&lt;a href="https://github.com/reverie89/gtav-portblock">GitHub repo&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>JET Opinion Exchange Conference</title><link>https://reverie89.github.io/sg/pastworks/2015-jet-opinion-exchange-conference/</link><pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2015-jet-opinion-exchange-conference/</guid><description>&lt;p>This conference is for JET people to share experience and suggest improvements. I go as Singapore rep, join the discussion, talk about important issues and what can do better for the community.&lt;/p>
+&lt;ul>
+&lt;li>Attend CLAIR conference, meet other JETs&lt;/li>
+&lt;li>Speak up about problems JET participants face, represent Singapore side&lt;/li>
+&lt;li>Discuss how to improve and what action to take, all for the community&lt;/li>
+&lt;/ul></description></item><item><title>JET Japanese Tea Ceremony Experiential Class</title><link>https://reverie89.github.io/sg/pastworks/2015-jet-tea/</link><pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2015-jet-tea/</guid><description>&lt;p>This class purpose is to introduce Japanese Tea Ceremony to foreign residents, also teach Japanese residents some English words for their Japanese tea ceremony, so that foreign residents can come appreciate Japanese culture.&lt;/p>
+&lt;ul>
+&lt;li>Introduce Japanese Tea Ceremony to foreign residents in Miyazaki City&lt;/li>
+&lt;li>Teach Japanese residents in 3 sessions some basic English words about Japanese tea ceremony&lt;/li>
+&lt;li>At the Tea Ceremony, the Japanese students showed foreign residents how to appreciate tea ceremony, all enjoy together&lt;/li>
+&lt;/ul></description></item><item><title>JET Introduce Singapore</title><link>https://reverie89.github.io/sg/pastworks/2015-jet-introduce-singapore/</link><pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2015-jet-introduce-singapore/</guid><description>&lt;ul>
+&lt;li>Introduce Singapore and its culture to Takaoka Town, Miyazaki Prefecture&lt;/li>
+&lt;/ul>
+&lt;p>This project go and present Singapore culture to Takaoka Town people, let them know more about us, promote cross-cultural understanding, make everyone happy.&lt;/p></description></item><item><title>JET Singapore Chicken Rice Cooking Class</title><link>https://reverie89.github.io/sg/pastworks/2015-jet-cooking/</link><pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2015-jet-cooking/</guid><description>&lt;ul>
+&lt;li>Cooking class for Miyazaki City residents, show them how to make Singapore&amp;rsquo;s famous food&lt;/li>
+&lt;/ul>
+&lt;p>Hold cooking class to teach Miyazaki people how to make Singapore Chicken Rice, exchange cultures and let everyone try shiok foods.&lt;/p></description></item><item><title>JET Christmas Market Event</title><link>https://reverie89.github.io/sg/pastworks/2014-jet-christmas-market-event/</link><pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2014-jet-christmas-market-event/</guid><description>&lt;p>This event bring all the foreign residents in Miyazaki together, volunteer and celebrate at Christmas Market, got community spirit and cultural exchange, very happening.&lt;/p>
+&lt;ul>
+&lt;li>Event actually started by my predecessor not me, I just continue the tradition&lt;/li>
+&lt;li>Recruit foreign residents to be Santas and Santarinas, everyone join in the fun&lt;/li>
+&lt;li>Help buy materials like non-bake cake ingredients for the event, all settle&lt;/li>
+&lt;li>I also join as foreign resident, enjoy the event together&lt;/li>
+&lt;/ul></description></item><item><title>WordPress website for local business</title><link>https://reverie89.github.io/sg/pastworks/2014-wordpress-website-local-business/</link><pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2014-wordpress-website-local-business/</guid><description>&lt;p>Help local business make WordPress website, customize everything, also setup webhosting and email, make their online presence more solid.&lt;/p>
+&lt;ul>
+&lt;li>Customize WordPress 3.7.x theme for local SME, make it look nice nice&lt;/li>
+&lt;li>Also help client setup webhosting and email, everything settle for them&lt;/li>
+&lt;/ul></description></item><item><title>Contribute to GitHub repo</title><link>https://reverie89.github.io/sg/pastworks/2014-contribute-github-repo/</link><pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2014-contribute-github-repo/</guid><description>&lt;p>I go fix bug for LinuxGSM, help GameServerManagers lah. Now server more steady, no anyhow crash. My contribution got record in the commit link. This one show I know how to work with open source people.&lt;/p>
+&lt;ul>
+&lt;li>Did a bugfix for &lt;a href="https://github.com/reverie89/linuxgameservers/commit/afb3f89d8ac5fc1f02458798eaeea876491484bb">GameServerManagers/LinuxGSM&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Game forum</title><link>https://reverie89.github.io/sg/pastworks/2013-game-forum/</link><pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2013-game-forum/</guid><description>&lt;p>This project try to setup game forum and all the backend, but stop halfway because not worth the effort.&lt;/p>
+&lt;ul>
+&lt;li>Forum for games like Natural Selection 2, Team Fortress 2, even plan to host private game server, but too busy, never maintain, website also not much people visit&lt;/li>
+&lt;li>Buy domain name, host forum on my VPS, connect domain to Outlook email, do all the server admin and firewall, everything ownself settle&lt;/li>
+&lt;/ul></description></item><item><title>Information Management System web app</title><link>https://reverie89.github.io/sg/pastworks/2011-information-management-system-web-app/</link><pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2011-information-management-system-web-app/</guid><description>&lt;p>Web app for digital record keeping, all use PHP and MySQL, got user profiles, locations, inventory, daily backup, and admin can see everything on map.&lt;/p>
+&lt;ul>
+&lt;li>Use WAMP stack to digitalize record keeping, setup everything myself&lt;/li>
+&lt;li>Gather user requirements on the job, learn as I go&lt;/li>
+&lt;li>Full SDLC in 9 months, use PHP 5, MySQL 5, jQuery 1.4, quite solid&lt;/li>
+&lt;li>Also setup servers and network for system go-live, everything settle&lt;/li>
+&lt;li>Got user profile, location, activity, inventory, all inside&lt;/li>
+&lt;li>Admin can see user location and status on map, very clear one&lt;/li>
+&lt;li>Database backup every day, no worry&lt;/li>
+&lt;/ul></description></item><item><title>Blogshop</title><link>https://reverie89.github.io/sg/pastworks/2009-blogshop/</link><pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2009-blogshop/</guid><description>&lt;p>Freelance project to build blogshop, custom design, got admin portal and order management, all use PHP and MySQL.&lt;/p>
+&lt;ul>
+&lt;li>Use PHP 5/MySQL5 stack, client give the design inspired by blogshops, I just follow&lt;/li>
+&lt;li>Slice PSD to make the website&lt;/li>
+&lt;li>Also made a basic Admin portal so client can go in edit content and check mailing list, everything easy&lt;/li>
+&lt;li>Ordering Form work like Contact Form, will email client about order info and they can follow up over email&lt;/li>
+&lt;/ul></description></item><item><title>FundzForFun</title><link>https://reverie89.github.io/sg/pastworks/2008-fundzforfun/</link><pubDate>Mon, 17 Mar 2008 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2008-fundzforfun/</guid><description>&lt;p>School project to promote financial literacy, make it fun with game website, got instructions and presentation also.&lt;/p>
+&lt;ul>
+&lt;li>School project for Corporate Finance and Advisory Services module, chim but fun so still ok&lt;/li>
+&lt;li>Main aim to help people study more about money literacy through games&lt;/li>
+&lt;li>Present the game using website so that everyone can see and play&lt;/li>
+&lt;li>&lt;a href="https://fundzforfun.vtsuki.net/">View website here&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>ZenochFashion zencart customization, setup, hosting</title><link>https://reverie89.github.io/sg/pastworks/2007-zenochfashion/</link><pubDate>Wed, 21 Feb 2007 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2007-zenochfashion/</guid><description>&lt;p>This one freelance project, help fashion shop build and customize e-commerce website using ZenCart, also settle hosting and domain for them.&lt;/p>
+&lt;ul>
+&lt;li>First time do freelance website project&lt;/li>
+&lt;li>Customize and setup ZenCart for fashion retailer, make the shop look nice nice&lt;/li>
+&lt;li>That time no payment gateway yet, just browse and see only&lt;/li>
+&lt;li>Also help client setup web hosting and domain, everything settle for them&lt;/li>
+&lt;/ul></description></item><item><title>Launch of vtsuki.net</title><link>https://reverie89.github.io/sg/pastworks/2006-launch-vtsuki-net/</link><pubDate>Sat, 26 Aug 2006 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2006-launch-vtsuki-net/</guid><description>&lt;p>This one is my hobby project, launch vtsuki.net with Flash animation, got interactive features and portfolio page, quite shiok.&lt;/p>
+&lt;ul>
+&lt;li>Try to make vtsuki.net website using old school Macromedia Flash and ActionScript&lt;/li>
+&lt;li>Got animated loading bar when open index to look pro&lt;/li>
+&lt;li>Bottom is real-time clock, opening got background sound (about 4 seconds), top menu all clickable links, can navigate around one&lt;/li>
+&lt;/ul></description></item><item><title>Evo-ViRz.net experimental website</title><link>https://reverie89.github.io/sg/pastworks/2005-evovirz-experimental-website/</link><pubDate>Thu, 09 Jun 2005 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2005-evovirz-experimental-website/</guid><description>&lt;p>This one is my hobby project, just wanna try PHP and web design, play around with custom images and use table for layout, old school style lah.&lt;/p>
+&lt;ul>
+&lt;li>First time try PHP coding, blur like sotong but learn fast. Use GIMP to make the images, not bad hor. Layout all use table tag, last time like that one.&lt;/li>
+&lt;/ul></description></item><item><title>North East Virtual Heritage Trail</title><link>https://reverie89.github.io/sg/pastworks/2004-north-east-virtual-heritage-trail/</link><pubDate>Sat, 27 Mar 2004 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/sg/pastworks/2004-north-east-virtual-heritage-trail/</guid><description>&lt;p>Wah, this one is inter-school competition project to design and make the North East Virtual Heritage Trail website, got interactive maps, gallery, quiz, and all the happening stuff. In the end, we kena 1st runner up, not bad lah!&lt;/p>
+&lt;ul>
+&lt;li>Got chance to join Singapore North East Virtual Heritage Trail inter-school website competition, Temasek Poly and North East CDC organise one sia&lt;/li>
+&lt;li>I do the website design and development, my team do the content, teamwork steady lah&lt;/li>
+&lt;li>Win 1st runner up, heng ah!&lt;/li>
+&lt;li>Use HTML4, JS, old school but still can&lt;/li>
+&lt;/ul></description></item></channel></rss>

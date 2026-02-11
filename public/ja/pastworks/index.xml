@@ -1,237 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pastworks on vtsuki.net</title>
-    <link>http://localhost:1313/ja/pastworks/</link>
-    <description>Recent content in Pastworks on vtsuki.net</description>
-    <generator>Hugo</generator>
-    <language>ja</language>
-    <copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright>
-    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ja/pastworks/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2026 MRホンバオキャンペーン</title>
-      <link>http://localhost:1313/ja/pastworks/2026-mr-hongbao-campaign/</link>
-      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2026-mr-hongbao-campaign/</guid>
-      <description>&lt;p&gt;これは&lt;a href=&#34;https://www.nhb.gov.sg/what-we-do/our-work/sector-development/museum-roundtable/2026-museum-roundtable-lunar-new-year-hongbao-campaign&#34;&gt;2026 Museum Roundtable (MR) Lunar New Year Hongbao Campaign&lt;/a&gt;とのパートナーシップで、Hongbao Huntという宝探し型ゲームを立ち上げました。これは、6つの参加博物館や文化遺産施設で一般の人々が旧正月の赤い封筒を集めるためのゲーム化されたデジタル体験です。このイベントは、2026年1月23日から2月15日までの1ヶ月間開催されました。参加者はSingpassでウェブゲームにログインし、謎を解いてアーティファクトをスキャンし、博物館内の指定された自動販売機で賞品を受け取ります。一般からのフィードバックは非常に良好で、いくつかの博物館では賞品が最初の週末までにほとんど受け取られました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>vtsuki.netリニューアル</title>
-      <link>http://localhost:1313/ja/pastworks/2025-vtsuki-revamp/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2025-vtsuki-revamp/</guid>
-      <description>&lt;p&gt;vtsuki.netはHugoとエージェントAIプロンプトで再構築されました。サイトはモダンなデザイン、テーマ切替、モバイル対応、高度な自動化を備えています。日本語とシングリッシュのコンテンツはAI生成、GitHub Pagesで公開。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ESP32によるIoT水耕栽培自動給水システム</title>
-      <link>http://localhost:1313/ja/pastworks/2025-iot-hydroponic-watering-system-esp32/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2025-iot-hydroponic-watering-system-esp32/</guid>
-      <description>&lt;p&gt;このプロジェクトは、ESP32マイコンを使った自動水耕栽培給水システムです。水量を確認してから、必要な濃度で養液を混合。ポンプ用12V電源1つで動作し、マイコンやセンサー用に電圧変換して効率的かつ安定した運用を実現しています。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>シンガポール・ナイトフェスティバル2024 - ナイトウォーク</title>
-      <link>http://localhost:1313/ja/pastworks/2024-singapore-night-festival-night-walk/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2024-singapore-night-festival-night-walk/</guid>
-      <description>&lt;p&gt;このプロジェクトでは、シンガポール・ナイトフェスティバル2024向けにゲーミフィケーションWebアプリを開発し、チェックイン、音声ストーリー解除、報酬引換機能を提供しました。クリエイティブ・技術ベンダー、ユーザー、ステークホルダーと短期間で協力し、9日間のイベント期間中に高い参加率とチェックイン数を達成しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>VSCodeトンネル用Dockerイメージ</title>
-      <link>http://localhost:1313/ja/pastworks/2024-docker-image-for-vscode-tunnel/</link>
-      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2024-docker-image-for-vscode-tunnel/</guid>
-      <description>&lt;p&gt;VSCodeトンネルをDockerで実行するためのDockerイメージを作成しました。Docker-in-Docker対応で開発コンテナも利用可能です。Docker Hubで公開されており、GitHubで自動ビルドも提供しています。このプロジェクトはリモート開発の効率化に貢献します。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>NHBゲーミフィケーション報告Webアプリ</title>
-      <link>http://localhost:1313/ja/pastworks/2024-nhb-gamification-reporting-web-app/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2024-nhb-gamification-reporting-web-app/</guid>
-      <description>&lt;p&gt;このプロジェクトは、AWS DynamoDBデータからレポートを生成するNHB向けモバイル対応Webアプリです。NodeJSとAWS Secrets Managerによる安全なメール復号、Pythonライブラリによるデータ処理を特徴とし、MVCアーキテクチャとDockerで構築。企業の報告ニーズに対応したスケーラブルかつ保守性の高い設計です。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Heritage Activation Nodes @ Katong Joo Chiat, Jalan Jalan</title>
-      <link>http://localhost:1313/ja/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</guid>
-      <description>&lt;p&gt;Katong Joo Chiat、Jalan JalanでのHeritage Activation Nodes向けに、チェックイン・ストーリー解除・報酬引換ができるゲーミフィケーションWebアプリを開発。15名以上と協力し、短期間で納品しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Web上の画像処理ツール</title>
-      <link>http://localhost:1313/ja/pastworks/2024-image-processor-web/</link>
-      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2024-image-processor-web/</guid>
-      <description>&lt;p&gt;このWebベースの画像処理ツールは、様々な画像形式やzipファイルのアップロードに対応。Pythonバックエンドがウォーターマーク処理を行い、サーバーに保存せずに処理済みファイルを返します。Dockerでパッケージ化され、公開利用・貢献が可能です。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Immichの動画プレビュー時間修正</title>
-      <link>http://localhost:1313/ja/pastworks/2024-fix-immich-video-preview-duration/</link>
-      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2024-fix-immich-video-preview-duration/</guid>
-      <description>&lt;p&gt;このプロジェクトでは、セルフホスト型メディアバックアップアプリ「Immich」で動画プレビュー時間が正しく表示されないバグを調査・修正しました。AI支援でPythonスクリプトを作成し、正確な時間でサイドカーファイルを更新。数百件のレコードを正常に修正しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>シンガポール・ナイトフェスティバル2023 - ナイトウォーク</title>
-      <link>http://localhost:1313/ja/pastworks/2023-singapore-night-festival-night-walk/</link>
-      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2023-singapore-night-festival-night-walk/</guid>
-      <description>&lt;p&gt;このプロジェクトでは、シンガポール・ナイトフェスティバル2023向けにゲーミフィケーションされたWebアプリを開発し、チェックイン、音声ストーリー、報酬機能を提供しました。大規模なコラボレーションのもと開発され、主要イベントで紹介され、高いユーザー参加率と広報効果を達成しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Python＋Dockerで画像にウォーターマーク</title>
-      <link>http://localhost:1313/ja/pastworks/2023-watermark-images-python-docker/</link>
-      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2023-watermark-images-python-docker/</guid>
-      <description>&lt;p&gt;このプロジェクトは、画像にウォーターマーク（透かし）を一括で追加するPythonプログラムをDockerコンテナで提供します。PNG、JPG、WEBP形式に対応し、GitHubとDocker Hubで公開されています。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>シンガポール・ナイトフェスティバル2022 - Crossing To The Past</title>
-      <link>http://localhost:1313/ja/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</link>
-      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</guid>
-      <description>&lt;p&gt;このプロジェクトでは、Minecraftを活用してシンガポール・ナイトフェスティバルをゲーミフィケーションし、アルメニアンストリートを仮想空間で再現しました。プレイヤーはHeritage IDアカウントを登録し、限定報酬を獲得。ゲームワールドはコーディングスクールや社内関係者と協力して設計・制作しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>RSVPチェックインウェブアプリ</title>
-      <link>http://localhost:1313/ja/pastworks/2020-rsvp-check-in/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2020-rsvp-check-in/</guid>
-      <description>&lt;p&gt;CSVインポート・エクスポート機能と出席管理ダッシュボードを備えた、ゲストRSVPチェックイン用のシンプルなPython製ウェブサイト。イベント管理のため2週間で開発。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Flutterモバイルアプリ</title>
-      <link>http://localhost:1313/ja/pastworks/2020-flutter-mobile-app/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2020-flutter-mobile-app/</guid>
-      <description>&lt;p&gt;このプロジェクトでは、Flutterを学び、製品トレーサビリティやサービス設置のためのフロントエンドモバイルアプリを開発しました。主要機能をデモし、FirebaseなどのNoSQLデータベース接続にも拡張可能です。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Caddy用Dockerイメージ（30万回以上DL！）</title>
-      <link>http://localhost:1313/ja/pastworks/2020-docker-image-for-caddy/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2020-docker-image-for-caddy/</guid>
-      <description>&lt;p&gt;このプロジェクトでは、Caddyウェブサーバー用のDockerイメージをカスタマイズし、認証やDNSプラグインを追加、テレメトリーを無効化しました。イメージはウェブサーバーのセットアップを簡素化し、コミュニティで広く利用されています。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>vtsuki.netのDocker環境への移行</title>
-      <link>http://localhost:1313/ja/pastworks/2019-vtsuki-net-migration-to-docker-setup/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2019-vtsuki-net-migration-to-docker-setup/</guid>
-      <description>&lt;p&gt;この移行プロジェクトでは、Docker環境で構築し、複数のVPSインスタンスにサービスを分割、HTTPSとCloudflareでセキュリティを強化しました。ストレージとメモリもコスト効率を考慮して最適化。内部サービスはDockerネットワーク内で隔離し、個人プロフィールもサイトに追加。全Webサービスの信頼性・セキュリティ・保守性が向上しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GTA-Vポートブロック</title>
-      <link>http://localhost:1313/ja/pastworks/2018-gtav-portblock/</link>
-      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2018-gtav-portblock/</guid>
-      <description>&lt;p&gt;このプロジェクトでは、GTA-VのためにWindowsファイアウォールを管理するバッチファイルを作成し、ポートのブロックやIPv4アドレスのホワイトリスト化を行い、ゲーム本体を改造せずにプライベートオンラインセッションを可能にしました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JET意見交換会議</title>
-      <link>http://localhost:1313/ja/pastworks/2015-jet-opinion-exchange-conference/</link>
-      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2015-jet-opinion-exchange-conference/</guid>
-      <description>&lt;p&gt;この会議はJET参加者が経験を共有し、改善案を提案する場を提供しました。シンガポール代表として、重要な課題やコミュニティのための具体的な解決策について議論しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JET日本茶道体験教室</title>
-      <link>http://localhost:1313/ja/pastworks/2015-jet-tea/</link>
-      <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2015-jet-tea/</guid>
-      <description>&lt;p&gt;この茶道体験イベントの目的は、外国人住民が文化交流を行い、日本文化への理解と感謝を深めることでした。日本人住民は、外国人住民とコミュニケーションできるように、私のクラスで基本的な英語表現を学びました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JETシンガポール紹介</title>
-      <link>http://localhost:1313/ja/pastworks/2015-jet-introduce-singapore/</link>
-      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2015-jet-introduce-singapore/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;宮崎県高岡町でシンガポールとその文化を紹介&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;このプロジェクトでは、宮崎県高岡町の住民にシンガポールの文化を紹介し、異文化理解と交流を促進しました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JETシンガポールチキンライス料理教室</title>
-      <link>http://localhost:1313/ja/pastworks/2015-jet-cooking/</link>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2015-jet-cooking/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;宮崎市民向けにシンガポールの代表的な料理を紹介する料理教室&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;シンガポールの名物チキンライスを宮崎市民に紹介する料理教室を開催し、食文化交流と理解を深めました。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JETクリスマスマーケットイベント</title>
-      <link>http://localhost:1313/ja/pastworks/2014-jet-christmas-market-event/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2014-jet-christmas-market-event/</guid>
-      <description>&lt;p&gt;このイベントは宮崎の外国人住民が集まり、クリスマスマーケットでボランティアや交流を行い、地域の絆と文化交流を深めました。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;イベントは前任者が始めたもの&lt;/li&gt;&#xA;&lt;li&gt;宮崎の外国人住民を募り、サンタやサンタリーナとしてイベントに参加・ボランティア&lt;/li&gt;&#xA;&lt;li&gt;イベント用の材料（例：焼かないケーキの材料）購入を支援&lt;/li&gt;&#xA;&lt;li&gt;宮崎市の外国人住民としてイベントに参加&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>地元企業向けWordPressウェブサイト</title>
-      <link>http://localhost:1313/ja/pastworks/2014-wordpress-website-local-business/</link>
-      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2014-wordpress-website-local-business/</guid>
-      <description>&lt;p&gt;地元企業のためにWordPressウェブサイトを開発・カスタマイズし、ウェブホスティングやメール設定も担当。オンラインでの存在感を強化。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;地元中小企業向けにWordPress 3.7.xテーマをカスタマイズ&lt;/li&gt;&#xA;&lt;li&gt;クライアントのためにウェブホスティングとメールサービスの設定も手配&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>GitHubリポジトリへの貢献</title>
-      <link>http://localhost:1313/ja/pastworks/2014-contribute-github-repo/</link>
-      <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2014-contribute-github-repo/</guid>
-      <description>&lt;p&gt;LinuxGSMのバグを修正し、GameServerManagersに貢献しました。アップデートによりサーバーの安定性が向上しました。貢献内容はリンク先のコミットで確認できます。この作業はオープンソース協力の経験を示しています。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ゲームフォーラム</title>
-      <link>http://localhost:1313/ja/pastworks/2013-game-forum/</link>
-      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2013-game-forum/</guid>
-      <description>&lt;p&gt;ゲームフォーラムと関連インフラの構築を試みたプロジェクトですが、時間不足と認知度の低さ原因を基づき中止。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Natural Selection 2やTeam Fortress 2などのゲーム用フォーラム。プライベートゲームサーバーのホストも計画していたが、他の事で忙しくなり、メンテナンスや認知度が足りず実現せず&lt;/li&gt;&#xA;&lt;li&gt;ドメイン名を購入し、VPSでフォーラムサイトをホスト。ドメインをOutlookのサードパーティメールサービスに接続し、サーバー管理やファイアウォールセキュリティも担当&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>情報管理システムWebアプリ</title>
-      <link>http://localhost:1313/ja/pastworks/2011-information-management-system-web-app/</link>
-      <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2011-information-management-system-web-app/</guid>
-      <description>&lt;p&gt;PHPとMySQLで構築したデジタル記録管理用Webアプリ。ユーザープロファイル、ロケーション、在庫管理、日次バックアップ、管理者向け可視化ツールをサポート。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Blogshop</title>
-      <link>http://localhost:1313/ja/pastworks/2009-blogshop/</link>
-      <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2009-blogshop/</guid>
-      <description>&lt;p&gt;PHPとMySQLを使い、カスタムデザイン・管理ポータル・注文管理機能を備えたBlogshopを構築したフリーランスプロジェクト。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PHP 5/MySQL5スタック。ウェブサイトデザインはクライアント提供&lt;/li&gt;&#xA;&lt;li&gt;PSDをスライスしてウェブサイトを作成&lt;/li&gt;&#xA;&lt;li&gt;クライアントがコンテンツ編集やメーリングリスト管理できる管理ポータルを実装&lt;/li&gt;&#xA;&lt;li&gt;注文フォームはコンタクトフォームのように機能し、注文情報をクライアントにメール送信してフォローアップ&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>FundzForFun</title>
-      <link>http://localhost:1313/ja/pastworks/2008-fundzforfun/</link>
-      <pubDate>Mon, 17 Mar 2008 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2008-fundzforfun/</guid>
-      <description>&lt;p&gt;金融リテラシー向上を目的としたゲーミフィケーションウェブサイトの学校プロジェクト。遊び方やプレゼン資料も含む。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;学校プロジェクト（コーポレートファイナンス＆アドバイザリーサービス科目）&lt;/li&gt;&#xA;&lt;li&gt;ゲーミフィケーションで金融リテラシー向上を目指す&lt;/li&gt;&#xA;&lt;li&gt;ゲームのプレゼンはウェブサイトで実施&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fundzforfun.vtsuki.net/&#34;&gt;ウェブサイトはこちら&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>ZenochFashion zencartカスタマイズ・設定・ホスティング</title>
-      <link>http://localhost:1313/ja/pastworks/2007-zenochfashion/</link>
-      <pubDate>Wed, 21 Feb 2007 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2007-zenochfashion/</guid>
-      <description>&lt;p&gt;ファッション小売業者向けにZenCartを使ってECサイトを構築・カスタマイズしたフリーランスプロジェクト。ホスティングやドメイン設定も担当。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>vtsuki.netの開設</title>
-      <link>http://localhost:1313/ja/pastworks/2006-launch-vtsuki-net/</link>
-      <pubDate>Sat, 26 Aug 2006 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2006-launch-vtsuki-net/</guid>
-      <description>&lt;p&gt;Flashアニメーション、インタラクティブ機能、ポートフォリオページを備えたvtsuki.netの開設趣味プロジェクト。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Macromedia FlashとActionScriptでvtsuki.netのウェブサイト作成に挑戦&lt;/li&gt;&#xA;&lt;li&gt;インデックスを開くとアニメーション付きローディングプログレスバー表示&lt;/li&gt;&#xA;&lt;li&gt;ページ下部にリアルタイム時計、オープニング背景音（約4秒）、トップメニューにクリック可能なリンク&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Evo-ViRz.net 実験的ウェブサイト</title>
-      <link>http://localhost:1313/ja/pastworks/2005-evovirz-experimental-website/</link>
-      <pubDate>Thu, 09 Jun 2005 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2005-evovirz-experimental-website/</guid>
-      <description>&lt;p&gt;PHPとウェブデザインを実験するための趣味プロジェクト。カスタム画像やテーブルレイアウトを使用。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;初めてPHPのコーディングに挑戦。関連画像作成のためにGIMPを習得。レイアウトにはHTMLのtableタグを使用。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>ノースイースト・バーチャル・ヘリテージ・トレイル</title>
-      <link>http://localhost:1313/ja/pastworks/2004-north-east-virtual-heritage-trail/</link>
-      <pubDate>Sat, 27 Mar 2004 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/pastworks/2004-north-east-virtual-heritage-trail/</guid>
-      <description>&lt;p&gt;シンガポールのノースイースト・バーチャル・ヘリテージ・トレイルのウェブサイトをデザイン・開発する学校間競技プロジェクト。インタラクティブな地図、ギャラリー、クイズ、動的コンテンツを備え、1位準優勝を受賞。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pastworks on vtsuki.net</title><link>https://reverie89.github.io/ja/pastworks/</link><description>Recent content in Pastworks on vtsuki.net</description><generator>Hugo</generator><language>ja</language><copyright>&amp;#169; 2006 - 2025 vtsuki.net</copyright><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://reverie89.github.io/ja/pastworks/index.xml" rel="self" type="application/rss+xml"/><item><title>2026 MRホンバオキャンペーン</title><link>https://reverie89.github.io/ja/pastworks/2026-mr-hongbao-campaign/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2026-mr-hongbao-campaign/</guid><description>&lt;p>これは&lt;a href="https://www.nhb.gov.sg/what-we-do/our-work/sector-development/museum-roundtable/2026-museum-roundtable-lunar-new-year-hongbao-campaign">2026 Museum Roundtable (MR) Lunar New Year Hongbao Campaign&lt;/a>とのパートナーシップで、Hongbao Huntという宝探し型ゲームを立ち上げました。これは、6つの参加博物館や文化遺産施設で一般の人々が旧正月の赤い封筒を集めるためのゲーム化されたデジタル体験です。このイベントは、2026年1月23日から2月15日までの1ヶ月間開催されました。参加者はSingpassでウェブゲームにログインし、謎を解いてアーティファクトをスキャンし、博物館内の指定された自動販売機で賞品を受け取ります。一般からのフィードバックは非常に良好で、いくつかの博物館では賞品が最初の週末までにほとんど受け取られました。&lt;/p></description></item><item><title>vtsuki.netリニューアル</title><link>https://reverie89.github.io/ja/pastworks/2025-vtsuki-revamp/</link><pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2025-vtsuki-revamp/</guid><description>&lt;p>vtsuki.netはHugoとエージェントAIプロンプトで再構築されました。サイトはモダンなデザイン、テーマ切替、モバイル対応、高度な自動化を備えています。日本語とシングリッシュのコンテンツはAI生成、GitHub Pagesで公開。&lt;/p></description></item><item><title>ESP32によるIoT水耕栽培自動給水システム</title><link>https://reverie89.github.io/ja/pastworks/2025-iot-hydroponic-watering-system-esp32/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2025-iot-hydroponic-watering-system-esp32/</guid><description>&lt;p>このプロジェクトは、ESP32マイコンを使った自動水耕栽培給水システムです。水量を確認してから、必要な濃度で養液を混合。ポンプ用12V電源1つで動作し、マイコンやセンサー用に電圧変換して効率的かつ安定した運用を実現しています。&lt;/p></description></item><item><title>シンガポール・ナイトフェスティバル2024 - ナイトウォーク</title><link>https://reverie89.github.io/ja/pastworks/2024-singapore-night-festival-night-walk/</link><pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2024-singapore-night-festival-night-walk/</guid><description>&lt;p>このプロジェクトでは、シンガポール・ナイトフェスティバル2024向けにゲーミフィケーションWebアプリを開発し、チェックイン、音声ストーリー解除、報酬引換機能を提供しました。クリエイティブ・技術ベンダー、ユーザー、ステークホルダーと短期間で協力し、9日間のイベント期間中に高い参加率とチェックイン数を達成しました。&lt;/p></description></item><item><title>VSCodeトンネル用Dockerイメージ</title><link>https://reverie89.github.io/ja/pastworks/2024-docker-image-for-vscode-tunnel/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2024-docker-image-for-vscode-tunnel/</guid><description>&lt;p>VSCodeトンネルをDockerで実行するためのDockerイメージを作成しました。Docker-in-Docker対応で開発コンテナも利用可能です。Docker Hubで公開されており、GitHubで自動ビルドも提供しています。このプロジェクトはリモート開発の効率化に貢献します。&lt;/p></description></item><item><title>NHBゲーミフィケーション報告Webアプリ</title><link>https://reverie89.github.io/ja/pastworks/2024-nhb-gamification-reporting-web-app/</link><pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2024-nhb-gamification-reporting-web-app/</guid><description>&lt;p>このプロジェクトは、AWS DynamoDBデータからレポートを生成するNHB向けモバイル対応Webアプリです。NodeJSとAWS Secrets Managerによる安全なメール復号、Pythonライブラリによるデータ処理を特徴とし、MVCアーキテクチャとDockerで構築。企業の報告ニーズに対応したスケーラブルかつ保守性の高い設計です。&lt;/p></description></item><item><title>Heritage Activation Nodes @ Katong Joo Chiat, Jalan Jalan</title><link>https://reverie89.github.io/ja/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2024-heritage-activation-nodes-katong-joo-chiat-jalan-jalan/</guid><description>&lt;p>Katong Joo Chiat、Jalan JalanでのHeritage Activation Nodes向けに、チェックイン・ストーリー解除・報酬引換ができるゲーミフィケーションWebアプリを開発。15名以上と協力し、短期間で納品しました。&lt;/p></description></item><item><title>Web上の画像処理ツール</title><link>https://reverie89.github.io/ja/pastworks/2024-image-processor-web/</link><pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2024-image-processor-web/</guid><description>&lt;p>このWebベースの画像処理ツールは、様々な画像形式やzipファイルのアップロードに対応。Pythonバックエンドがウォーターマーク処理を行い、サーバーに保存せずに処理済みファイルを返します。Dockerでパッケージ化され、公開利用・貢献が可能です。&lt;/p></description></item><item><title>Immichの動画プレビュー時間修正</title><link>https://reverie89.github.io/ja/pastworks/2024-fix-immich-video-preview-duration/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2024-fix-immich-video-preview-duration/</guid><description>&lt;p>このプロジェクトでは、セルフホスト型メディアバックアップアプリ「Immich」で動画プレビュー時間が正しく表示されないバグを調査・修正しました。AI支援でPythonスクリプトを作成し、正確な時間でサイドカーファイルを更新。数百件のレコードを正常に修正しました。&lt;/p></description></item><item><title>シンガポール・ナイトフェスティバル2023 - ナイトウォーク</title><link>https://reverie89.github.io/ja/pastworks/2023-singapore-night-festival-night-walk/</link><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2023-singapore-night-festival-night-walk/</guid><description>&lt;p>このプロジェクトでは、シンガポール・ナイトフェスティバル2023向けにゲーミフィケーションされたWebアプリを開発し、チェックイン、音声ストーリー、報酬機能を提供しました。大規模なコラボレーションのもと開発され、主要イベントで紹介され、高いユーザー参加率と広報効果を達成しました。&lt;/p></description></item><item><title>Python＋Dockerで画像にウォーターマーク</title><link>https://reverie89.github.io/ja/pastworks/2023-watermark-images-python-docker/</link><pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2023-watermark-images-python-docker/</guid><description>&lt;p>このプロジェクトは、画像にウォーターマーク（透かし）を一括で追加するPythonプログラムをDockerコンテナで提供します。PNG、JPG、WEBP形式に対応し、GitHubとDocker Hubで公開されています。&lt;/p></description></item><item><title>シンガポール・ナイトフェスティバル2022 - Crossing To The Past</title><link>https://reverie89.github.io/ja/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</link><pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2022-singapore-night-festival-crossing-to-the-past-minecraft/</guid><description>&lt;p>このプロジェクトでは、Minecraftを活用してシンガポール・ナイトフェスティバルをゲーミフィケーションし、アルメニアンストリートを仮想空間で再現しました。プレイヤーはHeritage IDアカウントを登録し、限定報酬を獲得。ゲームワールドはコーディングスクールや社内関係者と協力して設計・制作しました。&lt;/p></description></item><item><title>RSVPチェックインウェブアプリ</title><link>https://reverie89.github.io/ja/pastworks/2020-rsvp-check-in/</link><pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2020-rsvp-check-in/</guid><description>&lt;p>CSVインポート・エクスポート機能と出席管理ダッシュボードを備えた、ゲストRSVPチェックイン用のシンプルなPython製ウェブサイト。イベント管理のため2週間で開発。&lt;/p></description></item><item><title>Flutterモバイルアプリ</title><link>https://reverie89.github.io/ja/pastworks/2020-flutter-mobile-app/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2020-flutter-mobile-app/</guid><description>&lt;p>このプロジェクトでは、Flutterを学び、製品トレーサビリティやサービス設置のためのフロントエンドモバイルアプリを開発しました。主要機能をデモし、FirebaseなどのNoSQLデータベース接続にも拡張可能です。&lt;/p></description></item><item><title>Caddy用Dockerイメージ（30万回以上DL！）</title><link>https://reverie89.github.io/ja/pastworks/2020-docker-image-for-caddy/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2020-docker-image-for-caddy/</guid><description>&lt;p>このプロジェクトでは、Caddyウェブサーバー用のDockerイメージをカスタマイズし、認証やDNSプラグインを追加、テレメトリーを無効化しました。イメージはウェブサーバーのセットアップを簡素化し、コミュニティで広く利用されています。&lt;/p></description></item><item><title>vtsuki.netのDocker環境への移行</title><link>https://reverie89.github.io/ja/pastworks/2019-vtsuki-net-migration-to-docker-setup/</link><pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2019-vtsuki-net-migration-to-docker-setup/</guid><description>&lt;p>この移行プロジェクトでは、Docker環境で構築し、複数のVPSインスタンスにサービスを分割、HTTPSとCloudflareでセキュリティを強化しました。ストレージとメモリもコスト効率を考慮して最適化。内部サービスはDockerネットワーク内で隔離し、個人プロフィールもサイトに追加。全Webサービスの信頼性・セキュリティ・保守性が向上しました。&lt;/p></description></item><item><title>GTA-Vポートブロック</title><link>https://reverie89.github.io/ja/pastworks/2018-gtav-portblock/</link><pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2018-gtav-portblock/</guid><description>&lt;p>このプロジェクトでは、GTA-VのためにWindowsファイアウォールを管理するバッチファイルを作成し、ポートのブロックやIPv4アドレスのホワイトリスト化を行い、ゲーム本体を改造せずにプライベートオンラインセッションを可能にしました。&lt;/p></description></item><item><title>JET意見交換会議</title><link>https://reverie89.github.io/ja/pastworks/2015-jet-opinion-exchange-conference/</link><pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2015-jet-opinion-exchange-conference/</guid><description>&lt;p>この会議はJET参加者が経験を共有し、改善案を提案する場を提供しました。シンガポール代表として、重要な課題やコミュニティのための具体的な解決策について議論しました。&lt;/p></description></item><item><title>JET日本茶道体験教室</title><link>https://reverie89.github.io/ja/pastworks/2015-jet-tea/</link><pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2015-jet-tea/</guid><description>&lt;p>この茶道体験イベントの目的は、外国人住民が文化交流を行い、日本文化への理解と感謝を深めることでした。日本人住民は、外国人住民とコミュニケーションできるように、私のクラスで基本的な英語表現を学びました。&lt;/p></description></item><item><title>JETシンガポール紹介</title><link>https://reverie89.github.io/ja/pastworks/2015-jet-introduce-singapore/</link><pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2015-jet-introduce-singapore/</guid><description>&lt;ul>
+&lt;li>宮崎県高岡町でシンガポールとその文化を紹介&lt;/li>
+&lt;/ul>
+&lt;p>このプロジェクトでは、宮崎県高岡町の住民にシンガポールの文化を紹介し、異文化理解と交流を促進しました。&lt;/p></description></item><item><title>JETシンガポールチキンライス料理教室</title><link>https://reverie89.github.io/ja/pastworks/2015-jet-cooking/</link><pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2015-jet-cooking/</guid><description>&lt;ul>
+&lt;li>宮崎市民向けにシンガポールの代表的な料理を紹介する料理教室&lt;/li>
+&lt;/ul>
+&lt;p>シンガポールの名物チキンライスを宮崎市民に紹介する料理教室を開催し、食文化交流と理解を深めました。&lt;/p></description></item><item><title>JETクリスマスマーケットイベント</title><link>https://reverie89.github.io/ja/pastworks/2014-jet-christmas-market-event/</link><pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2014-jet-christmas-market-event/</guid><description>&lt;p>このイベントは宮崎の外国人住民が集まり、クリスマスマーケットでボランティアや交流を行い、地域の絆と文化交流を深めました。&lt;/p>
+&lt;ul>
+&lt;li>イベントは前任者が始めたもの&lt;/li>
+&lt;li>宮崎の外国人住民を募り、サンタやサンタリーナとしてイベントに参加・ボランティア&lt;/li>
+&lt;li>イベント用の材料（例：焼かないケーキの材料）購入を支援&lt;/li>
+&lt;li>宮崎市の外国人住民としてイベントに参加&lt;/li>
+&lt;/ul></description></item><item><title>地元企業向けWordPressウェブサイト</title><link>https://reverie89.github.io/ja/pastworks/2014-wordpress-website-local-business/</link><pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2014-wordpress-website-local-business/</guid><description>&lt;p>地元企業のためにWordPressウェブサイトを開発・カスタマイズし、ウェブホスティングやメール設定も担当。オンラインでの存在感を強化。&lt;/p>
+&lt;ul>
+&lt;li>地元中小企業向けにWordPress 3.7.xテーマをカスタマイズ&lt;/li>
+&lt;li>クライアントのためにウェブホスティングとメールサービスの設定も手配&lt;/li>
+&lt;/ul></description></item><item><title>GitHubリポジトリへの貢献</title><link>https://reverie89.github.io/ja/pastworks/2014-contribute-github-repo/</link><pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2014-contribute-github-repo/</guid><description>&lt;p>LinuxGSMのバグを修正し、GameServerManagersに貢献しました。アップデートによりサーバーの安定性が向上しました。貢献内容はリンク先のコミットで確認できます。この作業はオープンソース協力の経験を示しています。&lt;/p></description></item><item><title>ゲームフォーラム</title><link>https://reverie89.github.io/ja/pastworks/2013-game-forum/</link><pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2013-game-forum/</guid><description>&lt;p>ゲームフォーラムと関連インフラの構築を試みたプロジェクトですが、時間不足と認知度の低さ原因を基づき中止。&lt;/p>
+&lt;ul>
+&lt;li>Natural Selection 2やTeam Fortress 2などのゲーム用フォーラム。プライベートゲームサーバーのホストも計画していたが、他の事で忙しくなり、メンテナンスや認知度が足りず実現せず&lt;/li>
+&lt;li>ドメイン名を購入し、VPSでフォーラムサイトをホスト。ドメインをOutlookのサードパーティメールサービスに接続し、サーバー管理やファイアウォールセキュリティも担当&lt;/li>
+&lt;/ul></description></item><item><title>情報管理システムWebアプリ</title><link>https://reverie89.github.io/ja/pastworks/2011-information-management-system-web-app/</link><pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2011-information-management-system-web-app/</guid><description>&lt;p>PHPとMySQLで構築したデジタル記録管理用Webアプリ。ユーザープロファイル、ロケーション、在庫管理、日次バックアップ、管理者向け可視化ツールをサポート。&lt;/p></description></item><item><title>Blogshop</title><link>https://reverie89.github.io/ja/pastworks/2009-blogshop/</link><pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2009-blogshop/</guid><description>&lt;p>PHPとMySQLを使い、カスタムデザイン・管理ポータル・注文管理機能を備えたBlogshopを構築したフリーランスプロジェクト。&lt;/p>
+&lt;ul>
+&lt;li>PHP 5/MySQL5スタック。ウェブサイトデザインはクライアント提供&lt;/li>
+&lt;li>PSDをスライスしてウェブサイトを作成&lt;/li>
+&lt;li>クライアントがコンテンツ編集やメーリングリスト管理できる管理ポータルを実装&lt;/li>
+&lt;li>注文フォームはコンタクトフォームのように機能し、注文情報をクライアントにメール送信してフォローアップ&lt;/li>
+&lt;/ul></description></item><item><title>FundzForFun</title><link>https://reverie89.github.io/ja/pastworks/2008-fundzforfun/</link><pubDate>Mon, 17 Mar 2008 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2008-fundzforfun/</guid><description>&lt;p>金融リテラシー向上を目的としたゲーミフィケーションウェブサイトの学校プロジェクト。遊び方やプレゼン資料も含む。&lt;/p>
+&lt;ul>
+&lt;li>学校プロジェクト（コーポレートファイナンス＆アドバイザリーサービス科目）&lt;/li>
+&lt;li>ゲーミフィケーションで金融リテラシー向上を目指す&lt;/li>
+&lt;li>ゲームのプレゼンはウェブサイトで実施&lt;/li>
+&lt;li>&lt;a href="https://fundzforfun.vtsuki.net/">ウェブサイトはこちら&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>ZenochFashion zencartカスタマイズ・設定・ホスティング</title><link>https://reverie89.github.io/ja/pastworks/2007-zenochfashion/</link><pubDate>Wed, 21 Feb 2007 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2007-zenochfashion/</guid><description>&lt;p>ファッション小売業者向けにZenCartを使ってECサイトを構築・カスタマイズしたフリーランスプロジェクト。ホスティングやドメイン設定も担当。&lt;/p></description></item><item><title>vtsuki.netの開設</title><link>https://reverie89.github.io/ja/pastworks/2006-launch-vtsuki-net/</link><pubDate>Sat, 26 Aug 2006 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2006-launch-vtsuki-net/</guid><description>&lt;p>Flashアニメーション、インタラクティブ機能、ポートフォリオページを備えたvtsuki.netの開設趣味プロジェクト。&lt;/p>
+&lt;ul>
+&lt;li>Macromedia FlashとActionScriptでvtsuki.netのウェブサイト作成に挑戦&lt;/li>
+&lt;li>インデックスを開くとアニメーション付きローディングプログレスバー表示&lt;/li>
+&lt;li>ページ下部にリアルタイム時計、オープニング背景音（約4秒）、トップメニューにクリック可能なリンク&lt;/li>
+&lt;/ul></description></item><item><title>Evo-ViRz.net 実験的ウェブサイト</title><link>https://reverie89.github.io/ja/pastworks/2005-evovirz-experimental-website/</link><pubDate>Thu, 09 Jun 2005 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2005-evovirz-experimental-website/</guid><description>&lt;p>PHPとウェブデザインを実験するための趣味プロジェクト。カスタム画像やテーブルレイアウトを使用。&lt;/p>
+&lt;ul>
+&lt;li>初めてPHPのコーディングに挑戦。関連画像作成のためにGIMPを習得。レイアウトにはHTMLのtableタグを使用。&lt;/li>
+&lt;/ul></description></item><item><title>ノースイースト・バーチャル・ヘリテージ・トレイル</title><link>https://reverie89.github.io/ja/pastworks/2004-north-east-virtual-heritage-trail/</link><pubDate>Sat, 27 Mar 2004 00:00:00 +0000</pubDate><guid>https://reverie89.github.io/ja/pastworks/2004-north-east-virtual-heritage-trail/</guid><description>&lt;p>シンガポールのノースイースト・バーチャル・ヘリテージ・トレイルのウェブサイトをデザイン・開発する学校間競技プロジェクト。インタラクティブな地図、ギャラリー、クイズ、動的コンテンツを備え、1位準優勝を受賞。&lt;/p></description></item></channel></rss>

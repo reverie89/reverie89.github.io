@@ -16,7 +16,7 @@ socials:
     icon: "fa-brands fa-docker"
     url: "https://hub.docker.com/u/reverie89"
 
-intro: "政府政策とクラウドテクノロジーの橋渡しをする9年以上の経験を持つプロダクトリーダー。現在、国立文化財庁で多機能チーム（UX、サポート、AI）を率い、受賞歴のあるデジタル体験を提供しています。IM8（政府セキュリティコンプライアンス）と調達プロセスをナビゲートし、クラウドネイティブの一般向け製品を立ち上げる専門知識を持っています。"
+intro: "AI駆動型プラットフォームとゲーミファイドデジタル体験の0からNへの展開に特化した9年以上の経験を持つプロダクトリーダー。現在、国立文化財庁で多機能チーム（UX、サポート、AI）を率い、受賞歴のあるデジタル体験を提供しています。IM8（政府セキュリティコンプライアンス）と調達プロセスをナビゲートし、クラウドネイティブの一般向け製品を立ち上げる専門知識を持っています。"
 
 experience:
   - period: "2023年7月 - 現在"
@@ -25,9 +25,9 @@ experience:
     title: "ゲーミフィケーション＆プロダクトデリバリー マネージャー"
     logo: "national-heritage-board.webp"
     details:
-      - "多機能チーム（UX、サポート、外部ベンダー）の4名の直接部下を率い、20名以上の外部ベンダーチームを管理。"
-      - "AI製品ロードマップを定義し、専任のAIプロダクトマネージャーの採用承認とAIデータプラットフォームの展開を実現。"
-      - "大規模な多機能チームを率い、Gamification-as-a-Serviceクラウドプラットフォームソリューションの変革、開発、立ち上げを主導。"
+      - "多機能チーム（UX、Tech Support、PM）の4名の直接部下を率い、20名以上の外部ベンダーチームを管理。"
+      - "AIデータプラットフォームのスケーラビリティ、安全性、拡張性に向けた技術顧問としてアーキテクチャ設計を主導。"
+      - "AWSへのCI/CD展開を使用した0からNへのGamification-as-a-Serviceクラウドプラットフォームソリューションの立ち上げを主導し、GovTechのCrowdTask.gov.sgによるWalking Trails @ CDCの立ち上げに影響を与えた。"
       - "2026年ミュージアム・ラウンドテーブル旧正月（Lunar New Year）ホンバオキャンペーン向け「Hongbao Hunt」ゲームを共同立ち上げ。"
       - "24名のチームを共同リードし、ナショナル・ミュージアム・シンガポールのディスコをテーマとしたインタラクティブ・ポップアップ空間のデジタルソリューションの立ち上げを実施。6,000件超のユニーク登録と10,000回以上のプレイ数を達成。"
       - "22名のチームを率い、Singapore Night Festival 2022向けの高エンゲージメントなインタラクティブ・ゲーミフィケーション型ブースイベントの立ち上げと運営を主導。"
@@ -38,7 +38,7 @@ experience:
     title: "プロダクトデリバリー アシスタントマネージャー"
     logo: "national-heritage-board.webp"
     details:
-      - "弊社19のウェブサイトの運用・保守を担当しました。"
+      - "国立文化財庁（NHB）の19のウェブサイトの運用・保守を担当しました。"
       - "2022年・2021年にNHBウェブサイトのデジタルサービス標準の卓越性が認められ、政府全体のデジタルサービス賞を受賞しました。"
       - "博物館やフェスティバルイベント向けのゲーミフィケーション・インセンティブ施策を実施しました。"
       - "プロダクトデリバリーチームにRPAツールを導入しました。"
@@ -132,7 +132,7 @@ skills:
 
 education:
   - school: "Udacity x Temasek Polytechnic"
-    degree: "「ナノ学士」プロダクトマネジメント"
+    degree: "Nanodegree in Product Management"
     period: "2023年5月 - 2023年7月"
   - school: "Association of Chartered Certified Accountants"
     degree: "アフィリエイト"
@@ -194,7 +194,7 @@ badges:
 awards:
   - title: "National Heritage Board"
     image: "award_nhb2022.webp"
-    description: "大規模ウェブサイトを管理し、Google Lighthouseでほぼ満点のスコアを達成しました。"
+    description: "国立文化財庁の19のウェブサイトを管理し、Google Lighthouseでほぼ満点のスコアを達成しました。"
   - title: "島津製作所シンガポール"
     image: "award_shimadzu2020.webp"
     description: "B2Bモバイルアプリを開発し、製品メンテナンスとサービス管理を実現しました。"
